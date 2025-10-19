@@ -20,7 +20,7 @@ Source: TMDB /movie/{id} with id=550 (fields listed below are from this single e
 | `original_language` | `string` | "en" |
 | `original_title` | `string` | "Fight Club" |
 | `overview` | `string` | "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with u… |
-| `popularity` | `number` | 19.8808 |
+| `popularity` | `number` | 20.0618 |
 | `poster_path` | `string` | "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg" |
 | `production_companies` | `array` | [{"id": 711, "logo_path": "/tEiIH5QesdheJmDAqQwvtN60727.png", "name": "Fox 2000 Pictures", "origin_country": "US"}] |
 | `production_companies[0]` | `object` | {"id": 711, "logo_path": "/tEiIH5QesdheJmDAqQwvtN60727.png", "name": "Fox 2000 Pictures", "origin_country": "US"} |
@@ -44,7 +44,7 @@ Source: TMDB /movie/{id} with id=550 (fields listed below are from this single e
 | `tagline` | `string` | "Mischief. Mayhem. Soap." |
 | `title` | `string` | "Fight Club" |
 | `video` | `boolean` | false |
-| `vote_average` | `number` | 8.4 |
-| `vote_count` | `integer` | 30878 |
+| `vote_average` | `number` | 8.438 |
+| `vote_count` | `integer` | 30881 |
 
 _Total unique paths: 42_

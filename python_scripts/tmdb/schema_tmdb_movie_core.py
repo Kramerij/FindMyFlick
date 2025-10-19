@@ -23,6 +23,7 @@ Notes:
 
 import os
 from python_scripts.shared.schema_utils import load_api_key, fetch_json, flatten, write_md
+from python_scripts.shared.constants import DEFAULT_LANGUAGE
 
 EXAMPLE_MOVIE_ID = 550  # Fight Club
 
@@ -31,7 +32,7 @@ def main():
     api_key = load_api_key("TMDB_API_KEY")
 
     url = f"https://api.themoviedb.org/3/movie/{EXAMPLE_MOVIE_ID}"
-    params = {"api_key": api_key, "language": "en-US"}
+    params = {"api_key": api_key, "language": DEFAULT_LANGUAGE}
 
     data = fetch_json(url, params=params)
 
