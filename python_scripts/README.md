@@ -17,13 +17,35 @@ Some scripts are designed for demonstration (user-facing output), while others f
 ```
 python_scripts/
 ├── assets/                            # Example outputs (screenshots, markdown exports)
+│   ├── movie_lookup_example.png       # Example Power BI / app output
+│   ├── schema_omdb_core_fight_club.md # OMDb sample output for Fight Club
+│   ├── schema_tmdb_credits.md         # TMDB /movie/{id}/credits field list
+│   ├── schema_tmdb_movie_core.md      # TMDB /movie/{id} field list
+│   └── schema_tmdb_release_dates.md   # TMDB /movie/{id}/release_dates field list
+│
 ├── prototypes/                        # Early demo scripts such as content lookup
-├── shared/                            # Shared helpers for fetching and flattening API data
+│   └── content_lookup_demo.py
+│
+├── shared/                            # Shared helpers for fetching, flattening, and scoping API data
+│   ├── constants.py                   # Language and region defaults (US market, English text)
+│   └── schema_utils.py                # Flatten JSON and export markdown tables
+│
 ├── tmdb/                              # Scripts for analyzing TMDB API endpoints
-│   └── schema_tmdb_credits.py         # Actors, directors, and crew members
-|   └── schema_tmdb_movie_core.py      # General movie info including poster path, release date, genre, plot summary, etc.
+│   ├── schema_tmdb_credits.py         # Actors, directors, and crew members
+│   ├── schema_tmdb_movie_core.py      # General movie info (poster path, release date, genre, plot summary, etc.)
+│   └── schema_tmdb_release_dates.py   # Full release date info including location and day/month/year breakdown
+│
+├── omdb/                              # Scripts for analyzing OMDb API endpoint
+│   └── schema_omdb_core.py            # Core movie metadata including MPAA rating, year, and language
+│
+├── dtdd/                              # Scripts for analyzing DoesTheDogDie API endpoints
+│   ├── schema_dtdd_search.py          # Example schema for title search results
+│   ├── schema_dtdd_title_topics.py    # Schema for a specific title’s topic vote breakdown
+│   └── schema_dtdd_topics.py          # List of available content-warning categories
+│
 └── README.md                          # This file
 ```
+
 ---
 
 ## Setup
@@ -41,6 +63,7 @@ python_scripts/
    Then edit .env and fill in your API keys:
    - [TMDB API key](https://www.themoviedb.org/settings/api)
    - [DoesTheDogDie API key](https://www.doesthedogdie.com/profile)
+   - [OMDb API key](http://www.omdbapi.com/apikey.aspx)
 
 3. **(Optional but recommended) Create and activate a virtual environment:**
    Run the following command in your terminal:
