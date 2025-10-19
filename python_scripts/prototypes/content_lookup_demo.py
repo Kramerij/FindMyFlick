@@ -1,4 +1,7 @@
 """
+content_lookup_demo.py
+----------------
+
 This script takes a movie title as input and retrieves content warnings from 
 DoesTheDogDie and general movie info from The Movie Database (TMDB).
 
