@@ -1,5 +1,5 @@
 """
-schema_movie_core.py
+schema_tmdb_movie_core.py
 --------------------
 Purpose:
     Fetch detailed movie information from TMDB's /movie/{id} endpoint and export a

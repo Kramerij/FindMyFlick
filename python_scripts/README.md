@@ -16,12 +16,13 @@ Some scripts are designed for demonstration (user-facing output), while others f
 
 ```
 python_scripts/
-├── assets/                 # Example outputs (screenshots, markdown exports)
-├── prototypes/             # Early demo scripts such as content lookup
-├── shared/                 # Shared helpers for fetching and flattening API data
-├── tmdb/                   # Scripts for analyzing TMDB API endpoints
-│   └── schema_movie_core.py
-└── README.md               # This file
+├── assets/                            # Example outputs (screenshots, markdown exports)
+├── prototypes/                        # Early demo scripts such as content lookup
+├── shared/                            # Shared helpers for fetching and flattening API data
+├── tmdb/                              # Scripts for analyzing TMDB API endpoints
+│   └── schema_tmdb_credits.py         # Actors, directors, and crew members
+|   └── schema_tmdb_movie_core.py      # General movie info including poster path, release date, genre, plot summary, etc.
+└── README.md                          # This file
 ```
 ---
 
