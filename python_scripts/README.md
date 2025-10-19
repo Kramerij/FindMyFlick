@@ -14,6 +14,8 @@ Some scripts are designed for demonstration (user-facing output), while others f
 
 ## Folder Structure
 
+Each schema_*.py script maps a single API endpoint to document available fields, types, and sample values
+
 ```
 python_scripts/
 ├── assets/                            # Example outputs (screenshots, markdown exports)
@@ -21,6 +23,7 @@ python_scripts/
 │   ├── schema_omdb_core_fight_club.md # OMDb sample output for Fight Club
 │   ├── schema_tmdb_credits.md         # TMDB /movie/{id}/credits field list
 │   ├── schema_tmdb_movie_core.md      # TMDB /movie/{id} field list
+│   ├── schema_tmdb_providers.md       # TMDB /movie/{id}/providers (US-only, flatrate or free with ads)
 │   └── schema_tmdb_release_dates.md   # TMDB /movie/{id}/release_dates field list
 │
 ├── prototypes/                        # Early demo scripts such as content lookup
@@ -33,6 +36,7 @@ python_scripts/
 ├── tmdb/                              # Scripts for analyzing TMDB API endpoints
 │   ├── schema_tmdb_credits.py         # Actors, directors, and crew members
 │   ├── schema_tmdb_movie_core.py      # General movie info (poster path, release date, genre, plot summary, etc.)
+│   ├── schema_tmdb_providers.py       # Steaming availability (subscription or ad-supported)
 │   └── schema_tmdb_release_dates.py   # Full release date info including location and day/month/year breakdown
 │
 ├── omdb/                              # Scripts for analyzing OMDb API endpoint
