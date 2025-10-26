@@ -1,0 +1,41 @@
+MOVIE
+{
+"id": 123,
+"summary": "long string",
+"user rating": 9.8,
+"userWatchStatus": true,
+"poster": "link",
+"streaming services": ["netflix", "hulu"],
+"Year": 2012,
+"age rating": "pg-13",
+"name": "cool movie",
+"genre": ["action", "comedy"],
+"Tags": {
+    "Plot tags": [{"tagID": 1, "upvotes": 12, "downvotes": 2}],
+
+    "Trigger tags": [{"tagID": 1, "upvotes": 12, "downvotes": 2}],
+
+    "Person tags": [{"tagID": 1, "upvotes": 12, "downvotes": 2}]
+}
+}
+USER
+{
+  "userName": "userName",
+  "password": "password",
+  "userID": 123,
+  "userStreaming": ["netflix", "hulu", "disney+"],
+  "savedSearches": {"search1": "html?"},
+  "email": "email@email.com",
+  "watchedMoviesIDs": [1,2,3,4]
+ }
+WATCH HISTORY
+{
+  "movieID": 123,
+  "userRating": 7.6
+}
+TAG
+{
+  "tagType": "plot",
+  "tagID": 123,
+  "tagName": "Character Death" 
+}
