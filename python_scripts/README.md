@@ -24,7 +24,10 @@ python_scripts/
 │   ├── schema_tmdb_credits.md         # TMDB /movie/{id}/credits field list
 │   ├── schema_tmdb_movie_core.md      # TMDB /movie/{id} field list
 │   ├── schema_tmdb_providers.md       # TMDB /movie/{id}/providers (US-only, flatrate or free with ads)
-│   └── schema_tmdb_release_dates.md   # TMDB /movie/{id}/release_dates field list
+│   ├── schema_tmdb_release_dates.md   # TMDB /movie/{id}/release_dates field list
+│   ├── dtdd_topics_catalog.csv        # Aggregated list of DTDD topics across diverse movie samples
+│   ├── dtdd_topics_catalog.md         # Human-readable Markdown table of all identified DTDD topics
+│   └── dtdd_topics_catalog.json       # JSON export of DTDD topic data for potential app use
 │
 ├── prototypes/                        # Early demo scripts such as content lookup
 │   └── content_lookup_demo.py
@@ -43,9 +46,7 @@ python_scripts/
 │   └── schema_omdb_core.py            # Core movie metadata including MPAA rating, year, and language
 │
 ├── dtdd/                              # Scripts for analyzing DoesTheDogDie API endpoints
-│   ├── schema_dtdd_search.py          # Example schema for title search results
-│   ├── schema_dtdd_title_topics.py    # Schema for a specific title’s topic vote breakdown
-│   └── schema_dtdd_topics.py          # List of available content-warning categories
+│   └── schema_dtdd_topics_catalog.py  # Aggregates unique topics across many sampled TMDB movies
 │
 └── README.md                          # This file
 ```

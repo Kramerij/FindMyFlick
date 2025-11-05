@@ -1,0 +1,573 @@
+# DoesTheDogDie Topics — Catalog (sampled)
+
+Titles sampled: 52 • Resolved: 52 • Skipped: 0 • Unique topics: 200
+
+| topic_id | topic_name | hit_count | example_titles |
+|---|---|---:|---|
+| `153` | a dog dies | 34 | Fight Club, Hereditary, The Exorcist |
+| `158` | a kid dies | 28 | Hereditary, Talk to Me, Train to Busan |
+| `161` | there are jump scares | 34 | Hereditary, Talk to Me, The Exorcist |
+| `164` | someone is burned alive | 28 | Fight Club, Hereditary, Train to Busan |
+| `165` | there are spiders | 20 | Fight Club, Hereditary, Talk to Me |
+| `167` | there's flashing lights or images | 32 | Fight Club, Talk to Me, The Exorcist |
+| `168` | a parent dies | 39 | Fight Club, Hereditary, The Exorcist |
+| `171` | there's finger/toe mutilation | 21 | Fight Club, Hereditary, Talk to Me |
+| `174` | there are clowns | 10 | Get Out, Hereditary, The Babadook |
+| `176` | there are shower scenes | 28 | Fight Club, Hereditary, The Exorcist |
+| `177` | there's shaving/cutting | 38 | Fight Club, Hereditary, The Exorcist |
+| `180` | there's spitting | 38 | Fight Club, Hereditary, The Exorcist |
+| `181` | shaky cam is used | 33 | Fight Club, Hereditary, The Exorcist |
+| `182` | someone is sexually assaulted | 31 | Fight Club, Hereditary, The Exorcist |
+| `183` | a horse dies | 21 | Hereditary, Talk to Me, The Exorcist |
+| `184` | a car crashes | 28 | Fight Club, Hereditary, Talk to Me |
+| `186` | a cat dies | 18 | Hereditary, The Babadook, Train to Busan |
+| `187` | someone dies by suicide | 24 | Fight Club, Hereditary, The Exorcist |
+| `188` | there's blood/gore | 42 | Fight Club, Hereditary, The Exorcist |
+| `189` | an animal dies | 35 | Hereditary, Talk to Me, Train to Busan |
+| `190` | needles/syringes are used | 18 | Fight Club, Talk to Me, The Exorcist |
+| `191` | someone drowns | 13 | Hereditary, Ringu, Talk to Me |
+| `192` | there's a hospital scene | 27 | Fight Club, Hereditary, The Exorcist |
+| `193` | someone uses drugs | 32 | Fight Club, Hereditary, The Exorcist |
+| `194` | an LGBT person dies | 14 | Fight Club, Hereditary, The Exorcist |
+| `195` | there's body dysmorphia | 18 | Fight Club, Hereditary, The Exorcist |
+| `196` | a dragon dies | 19 | Hereditary, Talk to Me, The Exorcist |
+| `197` | there is sexual content | 36 | Fight Club, Hereditary, The Exorcist |
+| `198` | a plane crashes | 11 | Fight Club, Hereditary, Train to Busan |
+| `199` | someone self harms | 22 | Fight Club, Hereditary, The Exorcist |
+| `200` | there's eye mutilation | 25 | Fight Club, Hereditary, The Exorcist |
+| `201` | someone vomits | 32 | Fight Club, Hereditary, The Exorcist |
+| `202` | there's a claustrophobic scene | 31 | Hereditary, Talk to Me, The Exorcist |
+| `203` | there's torture | 32 | Fight Club, Hereditary, The Exorcist |
+| `204` | someone has cancer | 14 | Airplane, Fight Club, Hereditary |
+| `205` | electro-therapy is used | 9 | Mad Max: Fury Road, Talk to Me, The Exorcist |
+| `206` | someone has a seizure | 16 | Hereditary, Talk to Me, The Exorcist |
+| `207` | there's ghosts | 17 | Hereditary, Talk to Me, The Exorcist |
+| `208` | a person is hit by a car | 20 | Fight Club, Hereditary, Talk to Me |
+| `209` | Santa (et al) is spoiled | 9 | Fight Club, La La Land, Mean Girls |
+| `210` | teeth are damaged | 28 | Fight Club, Hereditary, Talk to Me |
+| `211` | someone falls to their death | 23 | Fight Club, Hereditary, The Exorcist |
+| `212` | someone speaks hate speech | 38 | Fight Club, Hereditary, The Exorcist |
+| `213` | there are bugs | 27 | Fight Club, Hereditary, The Exorcist |
+| `214` | there are snakes | 15 | Fight Club, Get Out, Hereditary |
+| `215` | someone miscarries | 6 | Die Hard, Hereditary, Mad Max: Fury Road |
+| `216` | someone breaks a bone | 35 | Fight Club, Hereditary, The Exorcist |
+| `217` | someone has an eating disorder | 13 | Fight Club, Hereditary, Train to Busan |
+| `218` | there's child abuse | 33 | Fight Club, Hereditary, The Exorcist |
+| `219` | there's domestic violence | 34 | Fight Club, Hereditary, The Exorcist |
+| `220` | there's a mental institution scene | 13 | Ringu, Talk to Me, The Exorcist |
+| `221` | there's a nuclear explosion | 10 | Crazy Rich Asians, Fight Club, Hereditary |
+| `222` | the ending is sad | 40 | Fight Club, Hereditary, The Exorcist |
+| `223` | heads get squashed | 24 | Fight Club, Hereditary, The Exorcist |
+| `224` | someone is possessed | 13 | Fight Club, Hereditary, The Exorcist |
+| `225` | alcohol abuse | 34 | Fight Club, Hereditary, The Exorcist |
+| `226` | someone is misgendered | 14 | Hereditary, Mean Girls, Superbad |
+| `227` | there are hangings | 20 | Fight Club, Hereditary, Talk to Me |
+| `228` | there's childbirth | 9 | Airplane, Mad Max: Fury Road, Talk to Me |
+| `229` | animals are abused | 33 | Fight Club, Hereditary, The Exorcist |
+| `230` | there's addiction | 32 | Fight Club, Hereditary, The Exorcist |
+| `231` | there's dog fighting | 13 | Fight Club, Hereditary, The Exorcist |
+| `232` | there's gun violence | 29 | Fight Club, The Exorcist, Train to Busan |
+| `233` | there's fat jokes | 21 | Fight Club, Ringu, Talk to Me |
+| `234` | the black guy dies first | 15 | Get Out, Hereditary, The Exorcist |
+| `235` | someone has an anxiety attack | 39 | Fight Club, Hereditary, The Exorcist |
+| `236` | there are incestuous relationships | 15 | Hereditary, The Babadook, The Exorcist |
+| `237` | someone gets gaslighted | 36 | Fight Club, Hereditary, The Exorcist |
+| `238` | someone has an abortion | 5 | Airplane, Hereditary, The Godfather |
+| `239` | a pregnant person dies | 8 | Hereditary, Talk to Me, The Godfather |
+| `240` | someone is buried alive | 18 | Fight Club, Hereditary, Train to Busan |
+| `241` | someone cheats | 23 | Airplane, Fight Club, Talk to Me |
+| `242` | someone is stalked | 32 | Fight Club, Hereditary, Talk to Me |
+| `243` | someone is kidnapped | 28 | Fight Club, Hereditary, Talk to Me |
+| `244` | there's ableist language or behavior | 34 | Fight Club, Hereditary, The Exorcist |
+| `245` | someone struggles to breathe | 38 | Fight Club, Hereditary, The Exorcist |
+| `246` | there's antisemitism | 14 | Airplane, Blazing Saddles, The Exorcist |
+| `247` | there are homophobic slurs | 17 | Fight Club, Hereditary, The Exorcist |
+| `248` | Autism specific abuse | 11 | Airplane, Hereditary, The Babadook |
+| `250` | there's amputation | 19 | Fight Club, Hereditary, Talk to Me |
+| `251` | someone says the n-word | 15 | Blazing Saddles, Get Out, Hereditary |
+| `252` | there's a dead animal | 35 | Fight Club, Hereditary, Talk to Me |
+| `253` | A child's dear toy is destroyed | 16 | Hereditary, Talk to Me, Train to Busan |
+| `254` | there's cannibalism | 17 | Hereditary, Talk to Me, Train to Busan |
+| `255` | There's audio gore | 31 | Fight Club, Hereditary, The Exorcist |
+| `256` | there is copaganda | 19 | Blazing Saddles, Fight Club, Get Out |
+| `257` | someone wets/soils themselves | 14 | Fight Club, The Babadook, The Exorcist |
+| `258` | there's genital trauma/mutilation | 16 | Fight Club, Talk to Me, The Exorcist |
+| `259` | someone says "I'll kill myself" | 17 | Fight Club, Hereditary, Talk to Me |
+| `260` | there's misophonia | 28 | Fight Club, Hereditary, Talk to Me |
+| `261` | a baby cries | 24 | Talk to Me, The Exorcist, Train to Busan |
+| `262` | there are "Man in a dress" jokes | 12 | Airplane, Blazing Saddles, Fight Club |
+| `263` | a mentally ill person is violent | 31 | Fight Club, Hereditary, The Exorcist |
+| `264` | a baby is stillborn | 4 | John Wick, Mad Max: Fury Road, Talk to Me |
+| `265` | someone suffers from PTSD | 27 | Hereditary, Talk to Me, The Exorcist |
+| `266` | there is a baby or unborn child | 27 | Hereditary, Talk to Me, Train to Busan |
+| `267` | there's excessive gore | 28 | Fight Club, Hereditary, The Exorcist |
+| `268` | the fourth wall is broken | 13 | Fight Club, Hereditary, Talk to Me |
+| `269` | a car honks or tires screech | 32 | Fight Club, Hereditary, Talk to Me |
+| `270` | someone is homeless | 18 | Fight Club, Talk to Me, The Exorcist |
+| `271` | someone falls down stairs | 19 | Fight Club, The Exorcist, Train to Busan |
+| `272` | the r-slur is used | 14 | Blazing Saddles, Get Out, Hereditary |
+| `273` | a male character is ridiculed for crying | 9 | Fight Club, Hereditary, Talk to Me |
+| `274` | someone is restrained | 37 | Fight Club, Hereditary, The Exorcist |
+| `275` | someone overdoses | 10 | Airplane, Fight Club, Talk to Me |
+| `276` | someone is sexually objectified | 25 | Fight Club, Hereditary, The Exorcist |
+| `277` | there's a large age gap | 17 | Hereditary, Ringu, The Babadook |
+| `278` | someone has a stroke | 7 | Hereditary, Ringu, The Godfather |
+| `279` | there are nude scenes | 27 | Fight Club, Hereditary, The Exorcist |
+| `280` | there's Achilles Tendon injury | 8 | Hereditary, John Wick, The Notebook |
+| `281` | someone asphyxiates | 25 | Hereditary, Talk to Me, Train to Busan |
+| `282` | someone is crushed to death | 18 | Get Out, Hereditary, Train to Busan |
+| `283` | there are 9/11 depictions | 8 | Fight Club, Get Out, Talk to Me |
+| `284` | an infant is abducted | 8 | Hereditary, The Babadook, The Notebook |
+| `285` | a pet dies | 18 | Fight Club, Hereditary, The Exorcist |
+| `286` | Someone attempts suicide | 22 | Fight Club, Hereditary, The Exorcist |
+| `287` | a minor is sexualized | 19 | Fight Club, Hereditary, The Exorcist |
+| `288` | someone has a chronic illness | 14 | Fight Club, Hereditary, The Exorcist |
+| `289` | someone sacrifices themselves | 27 | Fight Club, Hereditary, The Exorcist |
+| `290` | there is obscene language/gestures | 39 | Fight Club, Hereditary, The Exorcist |
+| `291` | someone has dementia/Alzheimer's | 11 | Hereditary, The Babadook, The Exorcist |
+| `292` | someone is sexually assaulted onscreen | 13 | Hereditary, Talk to Me, The Exorcist |
+| `293` | a child is abandoned by a parent or guardian | 30 | Fight Club, Hereditary, The Exorcist |
+| `294` | a minority is misrepresented | 23 | Fight Club, Get Out, Hereditary |
+| `295` | there are mannequins | 8 | Hereditary, Talk to Me, Train to Busan |
+| `296` | there's body horror | 27 | Fight Club, Hereditary, The Exorcist |
+| `297` | there are razors | 18 | Fight Club, Get Out, The Babadook |
+| `298` | Someone becomes unconscious | 39 | Fight Club, Hereditary, The Exorcist |
+| `299` | someone is drugged | 22 | Fight Club, Hereditary, The Exorcist |
+| `300` | there's fat suits | 5 | Fight Club, Mad Max: Fury Road, Mean Girls |
+| `301` | there's bisexual cheating | 3 | Fight Club, John Wick, Schindler's List |
+| `302` | D.I.D. Misrepresentation | 6 | Fight Club, Hereditary, The Exorcist |
+| `303` | there's aphobia | 5 | Airplane, Hereditary, La La Land |
+| `304` | the abused becomes the abuser | 19 | Fight Club, Hereditary, Talk to Me |
+| `305` | a non-human character dies | 27 | Hereditary, Talk to Me, The Exorcist |
+| `306` | there's body dysphoria | 9 | Fight Club, Get Out, Hereditary |
+| `307` | there's bestiality | 8 | Blazing Saddles, Talk to Me, Train to Busan |
+| `308` | someone is held under water | 20 | Hereditary, The Babadook, Train to Busan |
+| `309` | somebody is choked | 29 | Fight Club, Hereditary, The Exorcist |
+| `310` | there's deadnaming or birthnaming | 4 | Hereditary, The Babadook, Zodiac |
+| `311` | someone dies | 42 | Fight Club, Hereditary, The Exorcist |
+| `312` | trypophobic content is shown | 5 | Coco, Hereditary, Talk to Me |
+| `313` | a family member dies | 33 | Hereditary, Talk to Me, The Exorcist |
+| `314` | there are transphobic slurs | 6 | Blazing Saddles, Superbad, The Babadook |
+| `315` | sexual assault on men is a joke | 14 | Fight Club, Talk to Me, The Babadook |
+| `316` | there's anti-abortion themes | 4 | Hereditary, John Wick, The Notebook |
+| `317` | someone loses their virginity | 11 | Superbad, Talk to Me, The Exorcist |
+| `318` | someone is watched without knowing | 35 | Fight Club, Hereditary, Talk to Me |
+| `319` | animals were harmed in the making | 19 | Fight Club, Hereditary, The Exorcist |
+| `320` | there's pedophilia | 19 | Fight Club, Hereditary, The Exorcist |
+| `321` | someone is beaten up by a bully | 19 | Fight Club, Talk to Me, The Babadook |
+| `322` | someone is eaten | 8 | Hereditary, Talk to Me, Train to Busan |
+| `323` | there's ABA therapy | 5 | Superbad, The Babadook, The Notebook |
+| `324` | there's farting | 15 | Fight Club, Hereditary, The Exorcist |
+| `325` | there's blackface | 5 | Blazing Saddles, Crazy Rich Asians, Schindler's List |
+| `326` | rape is mentioned | 25 | Fight Club, Hereditary, The Exorcist |
+| `327` | someone is terminally ill | 18 | Fight Club, Hereditary, The Exorcist |
+| `328` | a major character dies | 36 | Fight Club, Hereditary, The Exorcist |
+| `329` | a priceless artifact is destroyed | 11 | Airplane, Hereditary, Mean Girls |
+| `330` | there's abusive parents | 27 | Hereditary, Ringu, Talk to Me |
+| `331` | there's decapitation | 16 | Hereditary, Talk to Me, Train to Busan |
+| `332` | there's an alligator/crocodile | 7 | Hereditary, Talk to Me, The Babadook |
+| `334` | reality is unstable or unhinged | 22 | Fight Club, Hereditary, The Exorcist |
+| `335` | there's natural bodies of water | 33 | Talk to Me, The Exorcist, Train to Busan |
+| `336` | someone has a mental illness | 33 | Fight Club, Hereditary, The Exorcist |
+| `337` | there are sharks | 3 | Die Hard, Schindler's List, Toy Story |
+| `338` | rabbits are harmed | 7 | Hereditary, Talk to Me, The Babadook |
+| `339` | there are sudden loud noises | 36 | Fight Club, Hereditary, The Exorcist |
+| `341` | existentialism is debated | 21 | Fight Club, Get Out, The Exorcist |
+| `342` | a woman gets slapped | 15 | Hereditary, Talk to Me, The Exorcist |
+| `343` | someone is stabbed | 24 | Hereditary, Talk to Me, The Exorcist |
+| `345` | there's incarceration | 21 | Blazing Saddles, Fight Club, Get Out |
+| `346` | there's end credits scenes? | 10 | Airplane, Hereditary, The Exorcist |
+| `347` | the abused forgives their abuser | 18 | Hereditary, Talk to Me, The Exorcist |
+| `348` | someone has a meltdown | 37 | Fight Club, Hereditary, The Exorcist |
+| `349` | autism is misrepresented | 8 | Hereditary, Superbad, The Babadook |
+| `350` | an animal is abandoned | 16 | Get Out, Talk to Me, Train to Busan |
+| `351` | religion is discussed | 30 | Fight Club, Hereditary, The Exorcist |
+| `352` | hands are damaged | 30 | Fight Club, Hereditary, The Exorcist |
+| `353` | someone disabled played by able-bodied | 21 | Fight Club, Talk to Me, Train to Busan |
+| `354` | someone poops on-screen | 7 | Fight Club, Mean Girls, The Exorcist |
+| `355` | an animal is sad | 26 | Hereditary, Talk to Me, The Babadook |
+| `356` | there's underwater scenes | 15 | Get Out, Ringu, The Babadook |
+| `357` | there's bedbugs | 8 | Superbad, The Babadook, The Godfather |
+| `358` | there's menstruation | 5 | Airplane, Mean Girls, Superbad |
+| `359` | a trans person is depicted predatorily | 3 | Schindler's List, The Babadook, The Notebook |
+| `360` | someone's mouth is covered | 32 | Fight Club, Hereditary, The Exorcist |
+| `361` | someone's throat is mutilated | 22 | Fight Club, Hereditary, The Exorcist |
+| `362` | someone dislocates something | 17 | Fight Club, Hereditary, The Exorcist |
+| `363` | someone leaves without saying goodbye | 35 | Fight Club, Hereditary, Talk to Me |
+| `364` | there's BDSM | 5 | Talk to Me, The Babadook, The Exorcist |
+| `365` | someone is abused with a belt | 10 | Hereditary, Talk to Me, The Babadook |
+| `366` | there's screaming | 46 | Fight Club, Hereditary, The Exorcist |
+| `367` | a woman is brutalized for spectacle | 16 | Blazing Saddles, Talk to Me, The Exorcist |
+| `368` | an LGBT+ person is outed | 3 | Mean Girls, Moonlight, Schindler's List |
+| `369` | there's demons or Hell | 12 | Hereditary, Talk to Me, The Exorcist |
+| `370` | there's dissociation, depersonalization, or derealization | 23 | Fight Club, Hereditary, Talk to Me |
+| `371` | there's audience participation | 1 | Fight Club |
+| `372` | there's smoke or haze | 16 | Fight Club, Hereditary, Talk to Me |
+| `375` | someone has a heart attack | 3 | The Exorcist, The Godfather, The Thing |
+
+## Descriptions
+
+- `153` — a dog dies: This trigger is for people who are upset by the death of a canine companion. Dogs are often portrayed as loyal friends in films, and their death can be very triggering.
+
+- `158` — a kid dies: Depictions of a child's death, whether accidental, intentional, or from illness.
+
+- `161` — there are jump scares: Sudden and unexpected moments of startling noise or visual effects.
+
+- `164` — someone is burned alive: Depictions of a person being consumed by fire.
+
+- `165` — there are spiders: This trigger is for people with arachnophobia, a fear of spiders. Even brief appearances of spiders can cause anxiety and distress for some viewers.
+
+- `167` — there's flashing lights or images: Rapidly flashing lights or images that can trigger seizures or discomfort in some viewers.
+
+- `168` — a parent dies: The death of a parent, leading to profound emotional trauma and life changes.
+
+- `171` — there's finger/toe mutilation: Depictions of injuries to fingers or toes.
+
+- `174` — there are clowns: Depictions of clowns, often associated with childhood trauma and fear.
+
+- `177` — there's shaving/cutting: Depictions of self-harm or other cutting actions.
+
+- `180` — there's spitting: Depictions of a person expelling saliva.
+
+- `181` — shaky cam is used: A handheld camera technique that can create a sense of disorientation or unease.
+
+- `182` — someone is sexually assaulted: A character is sexually assaulted or harassed.
+
+- `183` — a horse dies: This trigger is for people who are upset by the death of a horse. Horses are often seen as majestic creatures, and their death can be a difficult scene to watch, especially for animal lovers or horse enthusiasts.
+
+- `184` — a car crashes: Depictions of a car accident.
+
+- `186` — a cat dies: This trigger is for people who are upset by the death of a feline companion. Cats can form strong bonds with their owners, and their death on screen can be emotionally difficult to watch.
+
+- `187` — someone dies by suicide: Depictions of a person taking their own life.
+
+- `188` — there's blood/gore: Depictions of blood, violence, and bodily fluids.
+
+- `189` — an animal dies: This trigger is a broader category encompassing the death of any animal depicted on screen. It's useful for viewers who are sensitive to animal death in general.
+
+- `190` — needles/syringes are used: The use of sharp objects to inject or withdraw substances.
+
+- `191` — someone drowns: Depictions of a person being submerged in water and unable to breathe.
+
+- `192` — there's a hospital scene: Scenes set in a hospital environment.
+
+- `193` — someone uses drugs: This trigger encompasses the use of various illicit substances and can be distressing for people recovering from drug addiction, those with family members struggling with addiction, or individuals concerned about the negative impacts of drug use.
+
+- `194` — an LGBT person dies: The death of an individual who identifies as lesbian, gay, bisexual, transgender, or queer.
+
+- `195` — there's body dysmorphia: Depictions of individuals with an excessive preoccupation with perceived flaws in their appearance.
+- `196` — a dragon dies: This trigger is for viewers who may be attached to a fictional creature's well-being, even if it's a fantasy element like a dragon. This can be especially true if the dragon is portrayed as a sympathetic character.
+
+- `197` — there is sexual content: Depictions of sexual acts or behaviors.
+
+- `198` — a plane crashes: Depictions of an airplane accident.
+
+- `199` — someone self harms: Depictions of individuals intentionally causing harm to themselves.
+
+- `200` — there's eye mutilation: Graphic depictions of injuries to eyes.
+
+- `201` — someone vomits: Depictions of a person expelling stomach contents.
+- `202` — there's a claustrophobic scene: Depictions of confined spaces that can trigger fear or anxiety in individuals with claustrophobia.
+
+- `203` — there's torture: Depictions of inflicting severe pain or suffering.
+
+- `204` — someone has cancer: Depictions of a person diagnosed with cancer.
+
+- `205` — electro-therapy is used: The use of electrical current to treat medical conditions.
+
+- `206` — someone has a seizure: Depictions of uncontrolled electrical activity in the brain.
+
+- `207` — there's ghosts: Depictions of spirits of the dead, often associated with haunting and supernatural phenomena.
+
+- `208` — a person is hit by a car: Depictions of a person being struck by a vehicle.
+
+- `209` — Santa (et al) is spoiled: Depictions of characters revealing the truth about fictional or mythical figures, such as Santa Claus, the Easter Bunny, or the Tooth Fairy, to children who believe in them. This can lead to disappointment, disillusionment, and a loss of innocence. 
+
+- `210` — teeth are damaged: Depictions of injuries to teeth.
+
+- `211` — someone falls to their death: Depictions of a fatal fall.
+
+- `212` — someone speaks hate speech: The use of language that promotes hatred or violence against a particular group.
+
+- `213` — there are bugs: This trigger is for people with entomophobia, a fear of insects. Even brief appearances of bugs can cause anxiety and distress.
+
+- `214` — there are snakes: This trigger is for people with ophidiophobia, a fear of snakes. Even brief appearances of snakes can cause anxiety and distress for some viewers.
+
+- `215` — someone miscarries: The spontaneous loss of a pregnancy before the 20th week.
+
+- `216` — someone breaks a bone: Depictions of bone fractures.
+
+- `217` — someone has an eating disorder: Depictions of individuals with disordered eating patterns.
+
+- `218` — there's child abuse: This trigger specifically focuses on the abuse of children, which can be particularly disturbing and upsetting. It can be triggering for survivors of child abuse, those who work with children, and individuals who have a strong protective instinct towards children.
+
+- `219` — there's domestic violence: This trigger encompasses a range of abusive behaviors within intimate relationships, including physical, emotional, sexual, and financial abuse. It can be triggering for survivors of domestic violence and those who have witnessed or experienced unhealthy relationships.
+
+- `220` — there's a mental institution scene: Scenes set in a psychiatric facility.
+
+- `221` — there's a nuclear explosion: Depictions of a powerful explosion caused by nuclear energy.
+
+- `222` — the ending is sad: A conclusion that evokes feelings of sadness or loss.
+
+- `223` — heads get squashed: Graphic depictions of heads being crushed or compressed.
+
+- `224` — someone is possessed: A person is controlled by a supernatural or evil entity.
+- `225` — alcohol abuse: This trigger involves depictions of excessive or harmful alcohol consumption, which can be triggering for individuals struggling with alcohol addiction or those affected by alcoholism.
+
+- `226` — someone is misgendered: Using an incorrect gender pronoun or term to refer to a person.
+
+- `227` — there are hangings: Depictions of people suspended by a rope or other object around the neck.
+
+- `228` — there's childbirth: Depictions of the process of giving birth.
+
+- `229` — animals are abused: This trigger is for viewers who are disturbed by scenes of animal cruelty or violence. This can include physical abuse, neglect, or forced fighting.
+
+- `230` — there's addiction: This trigger refers to the broader concept of addiction, encompassing various behaviors beyond substance abuse. This includes process addictions such as gambling, sex addiction, workaholism, and other compulsive behaviors. It can be triggering for individuals struggling with any form of addiction or those supporting someone with an addiction.
+
+- `231` — there's dog fighting: Dog fighting is a cruel and illegal activity that involves forcing dogs to fight each other. Even depictions of dog fighting can be very disturbing.
+
+- `232` — there's gun violence: Depictions of violence involving firearms.
+
+- `233` — there's fat jokes: Jokes that mock or ridicule people based on their weight.
+
+- `234` — the black guy dies first: A trope in which Black characters are disproportionately likely to die in media.
+
+- `235` — someone has an anxiety attack: A person experiences a sudden surge of intense fear or discomfort.
+- `236` — there are incestuous relationships: Sexual relationships between close family members.
+
+- `237` — someone gets gaslighted: Gaslighting is a form of psychological manipulation where a person is made to question their own sanity or perception of reality. This trigger can be distressing for survivors of emotional abuse and those who are particularly vulnerable to manipulation.
+
+- `238` — someone has an abortion: The termination of a pregnancy.
+
+- `239` — a pregnant person dies: The death of a pregnant individual.
+
+- `240` — someone is buried alive: Depictions of a person being buried while still alive.
+
+- `241` — someone cheats: A romantic partner engages in infidelity, causing betrayal, heartbreak, and relationship breakdown.
+- `242` — someone is stalked: Stalking is a pattern of unwanted and intrusive behavior that can cause fear and anxiety. This trigger can be distressing for survivors of stalking and those who have experienced harassment or threats.
+
+- `243` — someone is kidnapped: A family member is taken away against their will, leading to fear, anxiety, and trauma.
+
+- `244` — there's ableist language or behavior: Language or actions that discriminate against or stigmatize people with disabilities.
+
+- `245` — someone struggles to breathe: Choking, suffocation, strangling, hyperventilating, and other depictions of difficulty in breathing.
+
+- `246` — there's antisemitism: Prejudice or discrimination against Jewish people.
+
+- `247` — there are homophobic slurs: The use of derogatory terms against LGBTQ+ individuals.
+
+- `248` — Autism specific abuse: Abuse targeting individuals with autism spectrum disorder.
+- `250` — there's amputation: Depictions of limbs being removed.
+
+- `251` — someone says the n-word: The use of a racial slur against Black people.
+
+- `252` — there's a dead animal: This trigger is for viewers who are generally disturbed by the sight of dead animals on screen.
+
+- `253` — A child's dear toy is destroyed: The loss of a beloved toy, symbolizing emotional security and comfort.
+- `254` — there's cannibalism: Depictions of humans consuming human flesh.
+
+- `255` — There's audio gore: Sound effects that depict violence, injury, or bodily fluids.
+
+- `256` — there is copaganda: Propaganda that portrays law enforcement in a positive light, often ignoring or downplaying issues of police misconduct.
+
+- `257` — someone wets/soils themselves: Depictions of a person urinating or defecating on themselves or in their pants.
+
+- `258` — there's genital trauma/mutilation: Graphic depictions of injuries to genitalia.
+
+- `259` — someone says "I'll kill myself": Expressions of suicidal ideation.
+
+- `260` — there's misophonia: Scenes that trigger misophonia, such as repetitive sounds, eating noises, or other sounds that can be intensely irritating.
+
+- `261` — a baby cries: Depictions of a crying infant, which can be irritating or distressing for some viewers.
+
+- `262` — there are "Man in a dress" jokes: Jokes that mock transgender women or men who do not conform to traditional gender roles.
+
+- `263` — a mentally ill person is violent: Portraying individuals with mental illnesses as inherently dangerous or violent.
+- `264` — a baby is stillborn: The birth of a dead baby.
+
+- `265` — someone suffers from PTSD: Depictions of individuals experiencing post-traumatic stress disorder.
+
+- `266` — there is a baby or unborn child: Depictions of a baby or unborn child.
+
+- `267` — there's excessive gore: Overwhelming amounts of blood, violence, and bodily fluids.
+
+- `268` — the fourth wall is broken: The character directly addresses the audience, blurring the lines between reality and fiction, which can be unsettling.
+
+- `269` — a car honks or tires screech: Loud noises made by vehicles, which can be startling or irritating.
+
+- `270` — someone is homeless: Depictions of individuals without a permanent home.
+
+- `271` — someone falls down stairs: Depictions of a person falling down a flight of stairs.
+
+- `272` — the r-slur is used: The use of a derogatory term against people with intellectual disabilities.
+
+- `273` — a male character is ridiculed for crying: Depictions of a male character being mocked or shamed for expressing emotions.
+
+- `274` — someone is restrained: A character is physically prevented from moving freely through the intentional use of force or physical barriers.
+
+- `275` — someone overdoses: A person dies or becomes seriously ill due to taking an excessive amount of a substance.
+
+- `276` — someone is sexually objectified: A person is treated as a sexual object rather than a human being.
+
+- `277` — there's a large age gap: A significant difference in age between romantic partners.
+
+- `278` — someone has a stroke: Depictions of individuals experiencing a stroke, a sudden loss of brain function.
+
+- `279` — there are nude scenes: Depictions of naked bodies.
+
+- `280` — there's Achilles Tendon injury: Depictions of injuries to the Achilles tendon.
+
+- `281` — someone asphyxiates: A person is deprived of oxygen, leading to unconsciousness or death.
+
+- `282` — someone is crushed to death: Depictions of a person being compressed to death by extreme force.
+
+- `283` — there are 9/11 depictions: Depictions of the September 11th terrorist attacks.
+
+- `284` — an infant is abducted: Depictions of a baby or infant being taken away without permission.
+
+- `285` — a pet dies: This trigger is a broader category encompassing the death of any animal companion, including dogs, cats, rabbits, hamsters, etc.
+
+- `286` — Someone attempts suicide: Depictions of a person attempting to take their own life.
+- `287` — a minor is sexualized: Depictions of children in a sexual manner, including suggestive poses, clothing, or language.
+
+- `288` — someone has a chronic illness: Depictions of individuals living with long-term health conditions.
+
+- `289` — someone sacrifices themselves: A character intentionally dies to save others.
+
+- `290` — there is obscene language/gestures: Offensive or vulgar language or gestures that can be disturbing or offensive.
+
+- `291` — someone has dementia/Alzheimer's: Depictions of individuals with progressive cognitive decline.
+
+- `292` — someone is sexually assaulted onscreen: A character is raped on screen
+- `293` — a child is abandoned by a parent or guardian: This trigger is for individuals who have experienced or fear abandonment, particularly in childhood. It can evoke strong emotional responses related to loss, fear, and insecurity.
+
+- `294` — a minority is misrepresented: Depictions of minority groups in a stereotypical or harmful way.
+
+- `295` — there are mannequins: Depictions of life-sized human models, often associated with uncanny valley and unease.
+- `296` — there's body horror: Does some sort of experimentation, mutations, or other event happen that warps the body. Graphic and disturbing depictions of physical bodies.
+
+- `297` — there are razors: Depictions of sharp blades, often associated with danger and self-harm.
+- `298` — Someone becomes unconscious: A person loses consciousness due to injury, illness, or other causes.
+
+- `299` — someone is drugged: A character is unknowingly given a substance that alters their mental or physical state without their consent.
+
+- `300` — there's fat suits: The use of costumes to make actors appear overweight.
+
+- `301` — there's bisexual cheating: Depictions of infidelity involving a bisexual person.
+- `302` — D.I.D. Misrepresentation: Inaccurate or stereotypical depictions of dissociative identity disorder.
+- `303` — there's aphobia: Prejudice or discrimination against asexual people.
+
+- `304` — the abused becomes the abuser: This trigger depicts a cycle of violence where a victim of abuse becomes the perpetrator. It can be triggering for survivors of abuse who struggle with feelings of guilt or shame, or those who fear repeating the cycle.
+
+- `305` — a non-human character dies: The death of an animal or fictional creature.
+
+- `306` — there's body dysphoria: Depictions of a mismatch between a person's physical sex and their gender identity, otr otherwise feeling dissatisfied with their own bodies.
+- `307` — there's bestiality: Depictions of sexual acts involving animals.
+
+- `308` — someone is held under water: A character's head is forcibly submerged in water, preventing them from breathing.
+
+- `309` — somebody is choked: A person is strangled or suffocated by having their throat constricted.
+
+- `310` — there's deadnaming or birthnaming: Using a person's deadname or birth name after they have transitioned.
+- `311` — someone dies: A general term for the death of a person.
+
+- `312` — trypophobic content is shown: Depictions of clusters of small holes or bumps, which can trigger a fear response in some people.
+- `313` — a family member dies: The death of a relative, causing grief, loss, and family disruption.
+- `314` — there are transphobic slurs: The use of derogatory terms against transgender people.
+- `315` — sexual assault on men is a joke: Sexual assault on a male might be played of as funny or less serious than if the victim were a woman.
+
+- `316` — there's anti-abortion themes: Depictions or discussions that oppose abortion.
+
+- `317` — someone loses their virginity: A person engages in sexual intercourse for the first time.
+
+- `318` — someone is watched without knowing: Depictions of a character being observed without their awareness, creating a sense of unease and paranoia.
+
+- `319` — animals were harmed in the making: This trigger is for viewers who are concerned about the ethical treatment of animals in filmmaking. Some older films or films with unrealistic stunts may have used methods that harmed animals.
+
+- `320` — there's pedophilia: Pedophillia is shown or mentioned.
+
+- `321` — someone is beaten up by a bully: A character is physically attacked and injured by another person who is aggressive and intimidating.
+
+- `322` — someone is eaten: Depictions of a person being consumed by another creature or entity.
+- `323` — there's ABA therapy: Depictions of applied behavior analysis therapy, which can be controversial and potentially harmful.
+
+- `324` — there's farting: Depictions of flatulence.
+
+- `325` — there's blackface: The wearing of makeup or costumes to imitate or mock Black people.
+
+- `326` — rape is mentioned: Sexual assault of any kind is mentioned, whether it might be recounting an event or a tasteless joke.
+
+- `327` — someone is terminally ill: Depictions of individuals with a life-threatening illness.
+
+- `328` — a major character dies: The death of a primary or beloved character.
+
+- `329` — a priceless artifact is destroyed: The destruction of a valuable or irreplaceable object.
+- `330` — there's abusive parents: This trigger encompasses a broad range of parental abuse, including physical, emotional, and psychological harm. It can be deeply traumatic for survivors of child abuse and those who have witnessed or experienced parental dysfunction.
+
+- `331` — there's decapitation: Depictions of a severed head.
+
+- `332` — there's an alligator/crocodile: This trigger is for people with a fear of large reptiles, such as herpetophobia, a general fear of reptiles or amphibians.
+
+- `334` — reality is unstable or unhinged: Depictions of a character experiencing a distorted or fragmented sense of reality.
+- `335` — there's natural bodies of water: Depictions of large, deep bodies of water, often associated with the unknown and danger.
+- `336` — someone has a mental illness: Depictions of individuals struggling with mental health conditions.
+
+- `337` — there are sharks: This trigger is for people with a fear of sharks. Even scenes that don't show shark attacks can be triggering for some viewers.
+
+- `338` — rabbits are harmed: This trigger is for viewers who are specifically upset by the death or mistreatment of rabbits. Rabbits are popular pets and can be seen as vulnerable creatures.
+
+- `339` — there are sudden loud noises: Unexpected loud sounds that can startle or frighten viewers.
+
+- `341` — existentialism is debated: Philosophical discussions or exploration of the meaning of life and existence.
+
+- `342` — a woman gets slapped: A female character is struck forcefully on the face by an open hand. 
+
+- `343` — someone is stabbed: Depictions of a person being wounded by a sharp object.
+
+- `345` — there's incarceration: Depictions of imprisonment or confinement.
+- `346` — there's end credits scenes?: Additional content shown after the main credits.
+
+- `347` — the abused forgives their abuser: Seeing abusers be forgiven or absolved of their actions can be very painful for abuse victims, particularly when the forgiveness is portrayed as something the victim "owes" to the abuser or the victim is portrayed as being bitter/ungrateful for things the abuser did for them/selfish/otherwise bad or in the wrong until they forgive the abuser.
+- `348` — someone has a meltdown: A person experiences a sudden and overwhelming emotional outburst.
+
+- `349` — autism is misrepresented: Inaccurate or stereotypical depictions of autism spectrum disorder.
+
+- `350` — an animal is abandoned: This trigger is for people who have a strong emotional connection to animals and are affected by depictions of animal neglect or abandonment. It can be distressing for those who have experienced the loss of a pet or have concerns about animal welfare. 
+
+
+- `351` — religion is discussed: Depictions or discussions of religious beliefs or practices.
+
+- `352` — hands are damaged: Depictions of injuries or harm inflicted on hands.
+
+- `353` — someone disabled played by able-bodied: An able-bodied actor portraying a character with a disability.
+
+- `354` — someone poops on-screen: Depictions of a person defecating on-screen.
+
+- `355` — an animal is sad: This trigger is for viewers who are affected by scenes depicting animal sadness or distress. This could include animals separated from their young, injured animals, or animals in captivity.
+
+- `356` — there's underwater scenes: Scenes set underwater, which can be disorienting or claustrophobic for some viewers.
+
+- `357` — there's bedbugs: Depictions of bedbugs or evidence of a bedbug infestation.
+
+- `358` — there's menstruation: Depictions of a woman's menstrual cycle.
+
+- `359` — a trans person is depicted predatorily: Portraying a transgender person as inherently dangerous or predatory.
+- `360` — someone's mouth is covered: A character's mouth is blocked or covered, preventing them from speaking or breathing.
+
+- `361` — someone's throat is mutilated: Graphic depictions of injuries to the throat or neck.
+
+- `362` — someone dislocates something: Depictions of joints being forced out of their normal position.
+
+- `363` — someone leaves without saying goodbye: This trigger is for individuals who have experienced sudden departures or unexpected endings in relationships. It can evoke feelings of rejection, betrayal, and uncertainty.
+
+- `364` — there's BDSM: Depictions of bondage, discipline, dominance, submission, and masochism.
+
+- `365` — someone is abused with a belt: This trigger specifically refers to physical abuse involving a belt, which can be a particularly visceral form of violence. It can be triggering for survivors of physical abuse and those who have fears of bodily harm.
+
+- `366` — there's screaming: Depictions of people screaming, which can be distressing or alarming.
+
+- `367` — a woman is brutalized for spectacle: Many women are victims of physical violence and abuse. Women in media are often made into narrative props that get used as targets for violence, for shock value. This may overlap with some cases of other categories, but encompasses the broader range of situations where women are made into hapless victims of brutal treatment, for shock. Being able to know, beforehand, whether a piece of media includes this trope would be greatly beneficial to many women.
+- `368` — an LGBT+ person is outed: A person's sexual orientation or gender identity is revealed without their consent.
+- `369` — there's demons or Hell: Depictions of supernatural beings or a place of punishment in the afterlife.
+
+- `370` — there's dissociation, depersonalization, or derealization: Depictions of a person feeling detached from their own thoughts, feelings, or surroundings.
