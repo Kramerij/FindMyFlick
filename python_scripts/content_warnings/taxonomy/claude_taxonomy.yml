@@ -1,0 +1,263 @@
+U01: # Animal Harm & Death
+  Specific Animals:
+    Dogs: [153, 231]
+    Cats: [186]
+    Horses: [183]
+    Pets general: [285]
+    Dragons: [196]
+    Non-human characters: [305]
+  Types of Harm:
+    Animal dies: [189]
+    Dead animal: [252]
+    Animals abused: [229]
+    Animal abandoned: [350]
+    Animal sad: [355]
+    Dog fighting: [231]
+    Rabbits harmed: [338]
+    Animals harmed in making: [319]
+
+U02: # Death & Dying
+  By Relationship:
+    Kid dies: [158]
+    Parent dies: [168]
+    Family member dies: [313]
+    Major character dies: [328]
+    LGBT person dies: [194]
+    Pregnant person dies: [239]
+  Manner of Death:
+    Suicide general: [187]
+    Suicide attempt: [286]
+    Falls to death: [211]
+    Drowns: [191]
+    Burned alive: [164]
+    Crushed to death: [282]
+    Eaten: [322]
+    Someone dies (general): [311]
+
+U03: # Violence & Gore
+  General Violence:
+    Blood/gore: [188]
+    Excessive gore: [267]
+    Audio gore: [255]
+    Gun violence: [232]
+    Torture: [203]
+    Body horror: [296]
+  Specific Injuries:
+    Eye mutilation: [200]
+    Finger/toe mutilation: [171]
+    Genital trauma: [258]
+    Teeth damaged: [210]
+    Amputation: [250]
+    Decapitation: [331]
+    Heads squashed: [223]
+    Throat mutilation: [361]
+    Bone breaks: [216]
+    Hand damage: [352]
+    Achilles tendon injury: [280]
+    Dislocations: [362]
+  Actions:
+    Stabbing: [343]
+    Beating by bully: [321]
+    Someone restrained: [274]
+    Choking: [309]
+    Woman slapped: [342]
+
+U04: # Sexual Content & Assault
+  Assault:
+    Sexual assault (unspecified): [182]
+    Sexual assault onscreen: [292]
+    Rape mentioned: [326]
+    Sexual assault on men as joke: [315]
+    Drugged (for assault/coercion): [299]
+  Content:
+    Sexual content: [197]
+    Nude scenes: [279]
+    Sexual objectification: [276]
+    BDSM: [364]
+  Harmful Content:
+    Minor sexualized: [287]
+    Pedophilia: [320]
+    Bestiality: [307]
+
+U05: # Child Harm & Family Trauma
+  Items:
+    Child abuse: [218]
+    Child dies: [158]
+    Abusive parents: [330]
+    Child abandoned: [293]
+    Domestic violence: [219]
+    Incestuous relationships: [236]
+    Minor sexualized: [287]
+    Infant abducted: [284]
+    Baby stillborn: [264]
+    Baby/unborn child present: [266]
+    Child's toy destroyed: [253]
+    Childbirth: [228]
+
+U06: # Mental Health & Illness
+  Conditions:
+    Mental illness (general): [336]
+    Anxiety attack: [235]
+    PTSD: [265]
+    Eating disorder: [217]
+    Dementia/Alzheimer's: [291]
+    Body dysmorphia: [195]
+    Body dysphoria: [306]
+    DID misrepresentation: [302]
+    Autism misrepresented: [349]
+  Episodes & Phenomena:
+    Meltdown: [348]
+    Seizure: [206]
+    Dissociation/depersonalization/derealization: [370]
+    Reality unstable: [334]
+    Possessed (cross-link to U13 Supernatural if you want): [224]
+  Institutional/Treatment:
+    Mental institution scene: [220]
+    Electro-therapy: [205]
+    ABA therapy: [323]
+  Stigma:
+    Mentally ill person violent: [263]
+
+U07: # Self-Harm & Suicide
+  Items:
+    Self harm: [199]
+    Suicide general: [187]
+    Suicide attempt: [286]
+    "I'll kill myself" (ideation): [259]
+    Shaving/cutting: [177]
+    Overdose: [275]
+    Razors: [297]
+    Abused becomes abuser (cycle): [304]
+
+U08: # Substance Use & Addiction
+  Items:
+    Drug use: [193]
+    Alcohol abuse: [225]
+    Addiction (process/behavioral): [230]
+    Overdose: [275]
+    Someone drugged: [299]
+
+U09: # Medical & Hospital Content
+  Items:
+    Hospital scene: [192]
+    Needles/syringes: [190]
+    Cancer: [204]
+    Chronic illness: [288]
+    Terminally ill: [327]
+    Stroke: [278]
+    Heart attack: [375]
+    Miscarriage: [215]
+    Abortion: [238]
+    Electro-therapy: [205]
+    Vomits: [201]
+    Losing virginity: [317]
+    Menstruation: [358]
+
+U10: # Discrimination & Hate
+  Racism:
+    Hate speech: [212]
+    N-word: [251]
+    Black guy dies first: [234]
+    Blackface: [325]
+    Minority misrepresented: [294]
+    Antisemitism: [246]
+  LGBTQ+:
+    Homophobic slurs: [247]
+    Transphobic slurs: [314]
+    Misgendered: [226]
+    Deadnaming: [310]
+    LGBT person outed: [368]
+    Trans person depicted predatorily: [359]
+    "Man in a dress" jokes: [262]
+    Aphobia: [303]
+    Bisexual cheating: [301]
+  Disability/Body:
+    Ableist language/behavior: [244]
+    R-slur: [272]
+    Autism specific abuse: [248]
+    Disabled played by able-bodied: [353]
+    Fat jokes: [233]
+    Fat suits: [300]
+
+U11: # Phobias & Sensory Triggers
+  Animals/Creatures:
+    Spiders: [165]
+    Bugs: [213]
+    Snakes: [214]
+    Sharks: [337]
+    Alligator/crocodile: [332]
+  Visual/Objects:
+    Clowns: [174]
+    Mannequins: [295]
+    Trypophobia: [312]
+  Spaces/Environment:
+    Claustrophobic scene: [202]
+    Underwater scenes: [356]
+    Natural bodies of water: [335]
+    Heights/falling: [211]
+  Audio/Visual Effects:
+    Jump scares: [161]
+    Flashing lights/images: [167]
+    Shaky cam: [181]
+    Sudden loud noises: [339]
+    Car honks/tires screech: [269]
+    Misophonia triggers: [260]
+    Screaming: [366]
+    Baby crying: [261]
+  Body-Related:
+    Vomiting: [201]
+    Wetting/soiling: [257]
+    Pooping onscreen: [354]
+    Farting: [324]
+    Spitting: [180]
+
+U12: # Psychological & Emotional Trauma
+  Items:
+    Gaslighting: [237]
+    Kidnapping: [243]
+    Stalking: [242]
+    Cheating: [241]
+    Buried alive: [240]
+    Held under water: [308]
+    Struggles to breathe: [245]
+    Asphyxiation: [281]
+    Mouth covered: [360]
+    Watched without knowing: [318]
+    Leaves without goodbye: [363]
+    Sad ending: [222]
+    Sacrifice: [289]
+    Becomes unconscious: [298]
+    Existentialism debated: [341]
+
+U13: # Accidents, Disasters & Situations
+  Accidents & Disasters:
+    Car crash: [184]
+    Plane crash: [198]
+    Hit by car: [208]
+    Nuclear explosion: [221]
+    9/11 depictions: [283]
+    Falls down stairs: [271]
+  Settings & Scenes:
+    Shower scenes: [176]
+    Incarceration: [345]
+    Homeless person: [270]
+    Smoke/haze: [372]
+  Supernatural & Horror:
+    Ghosts: [207]
+    Demons or Hell: [369]
+    Possessed: [224]
+  Meta/Narrative:
+    Fourth wall broken: [268]
+    End credits scenes: [346]
+    Santa spoiled: [209]
+    Audience participation: [371]
+  Miscellaneous:
+    Hangings: [227]
+    Bedbugs: [357]
+    Copaganda: [256]
+    Priceless artifact destroyed: [329]
+    Religion discussed: [351]
+    Large age gap: [277]
+    Abused forgives abuser: [347]
+    Male ridiculed for crying: [273]
+    Obscene language/gestures: [290]
