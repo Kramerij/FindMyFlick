@@ -17,38 +17,45 @@ Some scripts are designed for demonstration (user-facing output), while others f
 Each schema_*.py script maps a single API endpoint to document available fields, types, and sample values
 
 ```
-├── assets/                            # Example outputs (schemas, markdown exports)
+python_scripts/
+├── assets/                            # Example outputs (markdown exports and samples)
 │   ├── movie_lookup_example.png       # Example Power BI / app output
 │   ├── schema_omdb_core_fight_club.md # OMDb sample output for Fight Club
 │   ├── schema_tmdb_credits.md         # TMDB /movie/{id}/credits field list
 │   ├── schema_tmdb_movie_core.md      # TMDB /movie/{id} field list
 │   ├── schema_tmdb_providers.md       # TMDB /movie/{id}/providers (US-only, flatrate or free with ads)
 │   ├── schema_tmdb_release_dates.md   # TMDB /movie/{id}/release_dates field list
-│   ├── dtdd_search_fight_club.md      # DoesTheDogDie /dddsearch search result structure
-│   ├── dtdd_media_fight_club.md       # DoesTheDogDie /media/{itemId} structure (topics, votes, comments)
-│   ├── dtdd_topics_catalog.md         # Aggregated catalog of unique DTDD topics (sampled across movies)
-│   └── dtdd_topics_catalog.csv        # CSV export of the aggregated topics
+│   ├── schema_tmdb_images.md          # TMDB /movie/{id}/images field list (posters, backdrops)
+│   ├── schema_tmdb_keywords.md        # TMDB /movie/{id}/keywords field list
+│   ├── schema_tmdb_external_ids.md    # TMDB /movie/{id}/external_ids field list (for cross-API linking)
+│   ├── schema_tmdb_recommendations.md # TMDB /movie/{id}/recommendations (user-similarity algorithm)
+│   ├── schema_tmdb_similar.md         # TMDB /movie/{id}/similar (metadata-similarity algorithm)
+│   ├── schema_tmdb_discover.md        # TMDB /discover/movie (filtered search / recommendation algorithm)
+│   └── schema_tmdb_trending_week.md   # TMDB /trending/movie/week (current popularity algorithm)
 │
-├── prototypes/                        # Early demo scripts such as content lookup
-│   └── content_lookup_demo.py
-│
-├── shared/                            # Shared helpers for fetching, flattening, and scoping API data
-│   ├── constants.py                   # Language and region defaults (US market, English text)
-│   └── schema_utils.py                # Flatten JSON and export markdown tables
-│
-├── tmdb/                              # Scripts for analyzing TMDB API endpoints
-│   ├── schema_tmdb_credits.py         # Actors, directors, and crew members
-│   ├── schema_tmdb_movie_core.py      # General movie info (poster path, release date, genre, plot summary, etc.)
-│   ├── schema_tmdb_providers.py       # Paid subscription and free-with-ads provider info (US region)
-│   └── schema_tmdb_release_dates.py   # Full release date info including location and breakdown
+├── dtdd/                              # Scripts for analyzing DoesTheDogDie API endpoints
+│   └── schema_dtdd_topics_catalog.py  # Aggregates unique topics across many sampled movies
 │
 ├── omdb/                              # Scripts for analyzing OMDb API endpoint
 │   └── schema_omdb_core.py            # Core movie metadata including MPAA rating, year, and language
 │
-├── dtdd/                              # Scripts for analyzing DoesTheDogDie API endpoints
-│   ├── schema_dtdd_search.py          # Schema for DoesTheDogDie /dddsearch endpoint
-│   ├── schema_dtdd_media.py           # Schema for DoesTheDogDie /media/{itemId} endpoint
-│   └── schema_dtdd_topics_catalog.py  # Aggregates unique topics across sampled movies
+├── tmdb/                              # Scripts for analyzing TMDB API endpoints
+│   ├── schema_tmdb_credits.py         # Actors, directors, and crew members
+│   ├── schema_tmdb_movie_core.py      # General movie info (poster path, release date, genre, etc.)
+│   ├── schema_tmdb_providers.py       # Paid subscription and ad-supported streaming providers (US-only)
+│   ├── schema_tmdb_release_dates.py   # Full release date info including region and certification
+│   ├── schema_tmdb_images.py          # Image metadata (posters, backdrops)
+│   ├── schema_tmdb_keywords.py        # Movie keywords and tags
+│   ├── schema_tmdb_external_ids.py    # External identifiers (IMDb, Facebook, Instagram, Twitter)
+│   │
+│   ├── algorithm_tmdb_recommendations.py # User-similarity recommendation engine
+│   ├── algorithm_tmdb_similar.py         # Metadata-similarity recommendation engine
+│   ├── algorithm_tmdb_discover.py        # Filtered search / hybrid recommendation system
+│   └── algorithm_tmdb_trending_week.py   # Current popularity algorithm
+│
+├── shared/                            # Shared helpers for fetching, flattening, and scoping API data
+│   ├── constants.py                   # Language and region defaults (US market, English text)
+│   └── schema_utils.py                # Flatten JSON and export markdown tables
 │
 └── README.md                          # This file
 ```
