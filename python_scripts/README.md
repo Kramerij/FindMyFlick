@@ -17,17 +17,17 @@ Some scripts are designed for demonstration (user-facing output), while others f
 Each schema_*.py script maps a single API endpoint to document available fields, types, and sample values
 
 ```
-python_scripts/
-├── assets/                            # Example outputs (screenshots, markdown exports)
+├── assets/                            # Example outputs (schemas, markdown exports)
 │   ├── movie_lookup_example.png       # Example Power BI / app output
 │   ├── schema_omdb_core_fight_club.md # OMDb sample output for Fight Club
 │   ├── schema_tmdb_credits.md         # TMDB /movie/{id}/credits field list
 │   ├── schema_tmdb_movie_core.md      # TMDB /movie/{id} field list
 │   ├── schema_tmdb_providers.md       # TMDB /movie/{id}/providers (US-only, flatrate or free with ads)
 │   ├── schema_tmdb_release_dates.md   # TMDB /movie/{id}/release_dates field list
-│   ├── dtdd_topics_catalog.csv        # Aggregated list of DTDD topics across diverse movie samples
-│   ├── dtdd_topics_catalog.md         # Human-readable Markdown table of all identified DTDD topics
-│   └── dtdd_topics_catalog.json       # JSON export of DTDD topic data for potential app use
+│   ├── dtdd_search_fight_club.md      # DoesTheDogDie /dddsearch search result structure
+│   ├── dtdd_media_fight_club.md       # DoesTheDogDie /media/{itemId} structure (topics, votes, comments)
+│   ├── dtdd_topics_catalog.md         # Aggregated catalog of unique DTDD topics (sampled across movies)
+│   └── dtdd_topics_catalog.csv        # CSV export of the aggregated topics
 │
 ├── prototypes/                        # Early demo scripts such as content lookup
 │   └── content_lookup_demo.py
@@ -39,14 +39,16 @@ python_scripts/
 ├── tmdb/                              # Scripts for analyzing TMDB API endpoints
 │   ├── schema_tmdb_credits.py         # Actors, directors, and crew members
 │   ├── schema_tmdb_movie_core.py      # General movie info (poster path, release date, genre, plot summary, etc.)
-│   ├── schema_tmdb_providers.py       # Steaming availability (subscription or ad-supported)
-│   └── schema_tmdb_release_dates.py   # Full release date info including location and day/month/year breakdown
+│   ├── schema_tmdb_providers.py       # Paid subscription and free-with-ads provider info (US region)
+│   └── schema_tmdb_release_dates.py   # Full release date info including location and breakdown
 │
 ├── omdb/                              # Scripts for analyzing OMDb API endpoint
 │   └── schema_omdb_core.py            # Core movie metadata including MPAA rating, year, and language
 │
 ├── dtdd/                              # Scripts for analyzing DoesTheDogDie API endpoints
-│   └── schema_dtdd_topics_catalog.py  # Aggregates unique topics across many sampled TMDB movies
+│   ├── schema_dtdd_search.py          # Schema for DoesTheDogDie /dddsearch endpoint
+│   ├── schema_dtdd_media.py           # Schema for DoesTheDogDie /media/{itemId} endpoint
+│   └── schema_dtdd_topics_catalog.py  # Aggregates unique topics across sampled movies
 │
 └── README.md                          # This file
 ```
