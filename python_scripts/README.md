@@ -2,11 +2,63 @@
 
 ## Overview
 
-This script allows users to look up a movie and get:
-- Content warnings from DoesTheDogDie (e.g., violence, animal harm, etc.)
-- General movie information from The Movie Database (TMDB)
+This folder contains Python proof-of-concept scripts developed as part of the **Find My Flick** Senior Capstone Project.  
+The scripts demonstrate how to access and structure data from multiple APIs, including:
 
-API keys are required from both services and stored securely in a `.env` file.
+- **The Movie Database (TMDB)** – for movie details such as title, release year, genre, cast, directors, writers, and poster images.  
+- **DoesTheDogDie (DTDD)** – for content warnings and user-generated sensitivity data.
+
+Some scripts are designed for demonstration (user-facing output), while others focus on identifying API structures and field definitions for later integration into the web application.
+
+---
+
+## Folder Structure
+
+Each schema_*.py script maps a single API endpoint to document available fields, types, and sample values
+
+```
+python_scripts/
+├── assets/                            # Example outputs (markdown exports and samples)
+│   ├── movie_lookup_example.png       # Example Power BI / app output
+│   ├── schema_omdb_core_fight_club.md # OMDb sample output for Fight Club
+│   ├── schema_tmdb_credits.md         # TMDB /movie/{id}/credits field list
+│   ├── schema_tmdb_movie_core.md      # TMDB /movie/{id} field list
+│   ├── schema_tmdb_providers.md       # TMDB /movie/{id}/providers (US-only, flatrate or free with ads)
+│   ├── schema_tmdb_release_dates.md   # TMDB /movie/{id}/release_dates field list
+│   ├── schema_tmdb_images.md          # TMDB /movie/{id}/images field list (posters, backdrops)
+│   ├── schema_tmdb_keywords.md        # TMDB /movie/{id}/keywords field list
+│   ├── schema_tmdb_external_ids.md    # TMDB /movie/{id}/external_ids field list (for cross-API linking)
+│   ├── schema_tmdb_recommendations.md # TMDB /movie/{id}/recommendations (user-similarity algorithm)
+│   ├── schema_tmdb_similar.md         # TMDB /movie/{id}/similar (metadata-similarity algorithm)
+│   ├── schema_tmdb_discover.md        # TMDB /discover/movie (filtered search / recommendation algorithm)
+│   └── schema_tmdb_trending_week.md   # TMDB /trending/movie/week (current popularity algorithm)
+│
+├── dtdd/                              # Scripts for analyzing DoesTheDogDie API endpoints
+│   └── schema_dtdd_topics_catalog.py  # Aggregates unique topics across many sampled movies
+│
+├── omdb/                              # Scripts for analyzing OMDb API endpoint
+│   └── schema_omdb_core.py            # Core movie metadata including MPAA rating, year, and language
+│
+├── tmdb/                              # Scripts for analyzing TMDB API endpoints
+│   ├── schema_tmdb_credits.py         # Actors, directors, and crew members
+│   ├── schema_tmdb_movie_core.py      # General movie info (poster path, release date, genre, etc.)
+│   ├── schema_tmdb_providers.py       # Paid subscription and ad-supported streaming providers (US-only)
+│   ├── schema_tmdb_release_dates.py   # Full release date info including region and certification
+│   ├── schema_tmdb_images.py          # Image metadata (posters, backdrops)
+│   ├── schema_tmdb_keywords.py        # Movie keywords and tags
+│   ├── schema_tmdb_external_ids.py    # External identifiers (IMDb, Facebook, Instagram, Twitter)
+│   │
+│   ├── algorithm_tmdb_recommendations.py # User-similarity recommendation engine
+│   ├── algorithm_tmdb_similar.py         # Metadata-similarity recommendation engine
+│   ├── algorithm_tmdb_discover.py        # Filtered search / hybrid recommendation system
+│   └── algorithm_tmdb_trending_week.py   # Current popularity algorithm
+│
+├── shared/                            # Shared helpers for fetching, flattening, and scoping API data
+│   ├── constants.py                   # Language and region defaults (US market, English text)
+│   └── schema_utils.py                # Flatten JSON and export markdown tables
+│
+└── README.md                          # This file
+```
 
 ---
 
@@ -18,39 +70,82 @@ API keys are required from both services and stored securely in a `.env` file.
 
 2. **Copy the environment template:**
    Run the following command in your terminal:
+   ```
    cp python_scripts/.env.template python_scripts/.env
+   ```
    
-   Then fill in your API keys:
+   Then edit .env and fill in your API keys:
    - [TMDB API key](https://www.themoviedb.org/settings/api)
    - [DoesTheDogDie API key](https://www.doesthedogdie.com/profile)
+   - [OMDb API key](http://www.omdbapi.com/apikey.aspx)
 
 3. **(Optional but recommended) Create and activate a virtual environment:**
    Run the following command in your terminal:
+   ```
    python -m venv .venv
    .\.venv\Scripts\activate   # On Windows
    source .venv/bin/activate     # On macOS/Linux
+   ```
    
-
 4. **Install required packages:**
    Run the following command in your terminal:
+   ```
    pip install -r requirements.txt
+   ```
    
-
 5. **Run the script:**
-   Run the following command in your terminal:
-   python python_scripts/movie_lookup.py
-   
+   Make sure your virtual environment is active and your `.env` has `TMDB_API_KEY` (and any other keys needed).
+   Run the following commands in your terminal:
 
----
+### Demo script (content warnings):
+```
+python python_scripts/prototypes/movie_lookup_demo.py
+```
+
+
+### Schema / API-mapping scripts (TMDB example):
+Run **from the project root** using module syntax so imports from `python_scripts.shared` resolve:
+```
+python -m python_scripts.tmdb.schema_movie_core
+```
+
+
+The script uses a built-in `EXAMPLE_MOVIE_ID`.  
+If you want to try a different movie ID temporarily, you can:
+
+- **Option A (edit constant):** open `python_scripts/tmdb/schema_movie_core.py` and change `EXAMPLE_MOVIE_ID`.
+- **Option B (env var override)**
+
+macOS/Linux:
+```
+TMDB_MOVIE_ID=603 python -m python_scripts.tmdb.schema_movie_core
+```
+
+Windows PowerShell (session only):
+```
+$env:TMDB_MOVIE_ID = "603"
+python -m python_scripts.tmdb.schema_movie_core
+```
+
+
+### Where the results go:
+
+- You’ll see a formatted table in the terminal.
+- A Markdown export is also written here:
+  ```
+  python_scripts/assets/schema_tmdb_movie_core.md
+  ```
 
 ## Example Output
 
-Here is a snippet of what the script output looks like:
+- Screenshot of the demo script:
+  ![Example Output](python_scripts/assets/movie_lookup_example.png)
 
-![Example Output](python_scripts/assets/movie_lookup_example.png)
+- Markdown export of TMDB `/movie/{id}` fields:
+  [schema_tmdb_movie_core.md](python_scripts/assets/schema_tmdb_movie_core.md)
 
 ---
 
 ## References
 
-- Portions of the movie_lookup.py script were written and debugged with assistance from IntelliSense and AI coding tools in VS Code.
+- Portions of the Python scripts were written and debugged with assistance from IntelliSense and integrated AI development tools in Visual Studio Code.
