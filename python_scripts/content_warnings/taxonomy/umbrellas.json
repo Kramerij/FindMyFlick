@@ -1,0 +1,15 @@
+[
+  { "umbrella_id": "U01", "name": "Animal Harm & Death" },
+  { "umbrella_id": "U02", "name": "Death & Dying" },
+  { "umbrella_id": "U03", "name": "Violence & Gore" },
+  { "umbrella_id": "U04", "name": "Sexual Content & Assault" },
+  { "umbrella_id": "U05", "name": "Child Harm & Family Trauma" },
+  { "umbrella_id": "U06", "name": "Mental Health & Illness" },
+  { "umbrella_id": "U07", "name": "Self-Harm & Suicide" },
+  { "umbrella_id": "U08", "name": "Substance Use & Addiction" },
+  { "umbrella_id": "U09", "name": "Medical & Hospital Content" },
+  { "umbrella_id": "U10", "name": "Discrimination & Hate" },
+  { "umbrella_id": "U11", "name": "Phobias & Sensory Triggers" },
+  { "umbrella_id": "U12", "name": "Psychological & Emotional Trauma" },
+  { "umbrella_id": "U13", "name": "Accidents, Disasters & Situations" }
+]
