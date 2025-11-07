@@ -18,59 +18,69 @@ Each schema_*.py script maps a single API endpoint to document available fields,
 
 ```
 python_scripts/
-├── assets/                            # Example outputs (markdown exports and samples)
-│   ├── movie_lookup_example.png       # Example Power BI / app output
-│   ├── schema_omdb_core_fight_club.md # OMDb sample output for Fight Club
-│   ├── schema_tmdb_credits.md         # TMDB /movie/{id}/credits field list
-│   ├── schema_tmdb_movie_core.md      # TMDB /movie/{id} field list
-│   ├── schema_tmdb_providers.md       # TMDB /movie/{id}/providers (US-only, flatrate or free with ads)
-│   ├── schema_tmdb_release_dates.md   # TMDB /movie/{id}/release_dates field list
-│   ├── schema_tmdb_images.md          # TMDB /movie/{id}/images field list (posters, backdrops)
-│   ├── schema_tmdb_keywords.md        # TMDB /movie/{id}/keywords field list
-│   ├── schema_tmdb_external_ids.md    # TMDB /movie/{id}/external_ids field list (for cross-API linking)
-│   ├── schema_tmdb_recommendations.md # TMDB /movie/{id}/recommendations (user-similarity algorithm)
-│   ├── schema_tmdb_similar.md         # TMDB /movie/{id}/similar (metadata-similarity algorithm)
-│   ├── schema_tmdb_discover.md        # TMDB /discover/movie (filtered search / recommendation algorithm)
-│   └── schema_tmdb_trending_week.md   # TMDB /trending/movie/week (current popularity algorithm)
+├── assets/                                # Example outputs (markdown exports and samples)
+│   ├── movie_lookup_example.png           # Example Power BI / app output
+│   ├── schema_omdb_core_fight_club.md     # OMDb sample output for Fight Club
+│   ├── schema_tmdb_credits.md             # TMDB /movie/{id}/credits field list
+│   ├── schema_tmdb_movie_core.md          # TMDB /movie/{id} field list
+│   ├── schema_tmdb_providers.md           # TMDB /movie/{id}/providers (US-only, flatrate or free with ads)
+│   ├── schema_tmdb_release_dates.md       # TMDB /movie/{id}/release_dates field list
+│   ├── schema_tmdb_images.md              # TMDB /movie/{id}/images field list (posters, backdrops)
+│   ├── schema_tmdb_keywords.md            # TMDB /movie/{id}/keywords field list
+│   ├── schema_tmdb_external_ids.md        # TMDB /movie/{id}/external_ids field list (for cross-API linking)
+│   ├── schema_tmdb_recommendations.md     # TMDB /movie/{id}/recommendations (user-similarity algorithm)
+│   ├── schema_tmdb_similar.md             # TMDB /movie/{id}/similar (metadata-similarity algorithm)
+│   ├── schema_tmdb_discover.md            # TMDB /discover/movie (filtered search / recommendation algorithm)
+│   └── schema_tmdb_trending_week.md       # TMDB /trending/movie/week (current popularity algorithm)
 │
-├── dtdd/                              # Scripts for analyzing DoesTheDogDie API endpoints
-│   └── schema_dtdd_topics_catalog.py  # Aggregates unique topics across many sampled movies
+├── dtdd/                                  # Scripts for analyzing DoesTheDogDie API endpoints
+│   └── schema_dtdd_topics_catalog.py      # Aggregates unique topics across many sampled movies
 │
-├── omdb/                              # Scripts for analyzing OMDb API endpoint
-│   └── schema_omdb_core.py            # Core movie metadata including MPAA rating, year, and language
+├── omdb/                                  # Scripts for analyzing OMDb API endpoint
+│   └── schema_omdb_core.py                # Core movie metadata including MPAA rating, year, and language
 │
-├── tmdb/                              # Scripts for analyzing TMDB API endpoints
-│   ├── schema_tmdb_credits.py         # Actors, directors, and crew members
-│   ├── schema_tmdb_movie_core.py      # General movie info (poster path, release date, genre, etc.)
-│   ├── schema_tmdb_providers.py       # Paid subscription and ad-supported streaming providers (US-only)
-│   ├── schema_tmdb_release_dates.py   # Full release date info including region and certification
-│   ├── schema_tmdb_images.py          # Image metadata (posters, backdrops)
-│   ├── schema_tmdb_keywords.py        # Movie keywords and tags
-│   ├── schema_tmdb_external_ids.py    # External identifiers (IMDb, Facebook, Instagram, Twitter)
+├── tmdb/                                  # Scripts for analyzing TMDB API endpoints
+│   ├── schema_tmdb_credits.py             # Actors, directors, and crew members
+│   ├── schema_tmdb_movie_core.py          # General movie info (poster path, release date, genre, etc.)
+│   ├── schema_tmdb_providers.py           # Paid subscription and ad-supported streaming providers (US-only)
+│   ├── schema_tmdb_release_dates.py       # Full release date info including region and certification
+│   ├── schema_tmdb_images.py              # Image metadata (posters, backdrops)
+│   ├── schema_tmdb_keywords.py            # Movie keywords and tags
+│   ├── schema_tmdb_external_ids.py        # External identifiers (IMDb, Facebook, Instagram, Twitter)
 │   │
-│   ├── algorithm_tmdb_recommendations.py # User-similarity recommendation engine
-│   ├── algorithm_tmdb_similar.py         # Metadata-similarity recommendation engine
-│   ├── algorithm_tmdb_discover.py        # Filtered search / hybrid recommendation system
-│   └── algorithm_tmdb_trending_week.py   # Current popularity algorithm
+│   ├── algorithm_tmdb_recommendations.py  # User-similarity recommendation engine
+│   ├── algorithm_tmdb_similar.py          # Metadata-similarity recommendation engine
+│   ├── algorithm_tmdb_discover.py         # Filtered search / hybrid recommendation system
+│   └── algorithm_tmdb_trending_week.py    # Current popularity algorithm
 │
-├── shared/                            # Shared helpers for fetching, flattening, and scoping API data
-│   ├── constants.py                   # Language and region defaults (US market, English text)
-│   └── schema_utils.py                # Flatten JSON and export markdown tables
+├── shared/                                # Shared helpers for fetching, flattening, and scoping API data
+│   ├── constants.py                       # Language and region defaults (US market, English text)
+│   └── schema_utils.py                    # Flatten JSON and export markdown tables
 │
-├── content_warnings/                  # DoesTheDogDie taxonomy and processing scripts
+├── content_warnings/                      # DoesTheDogDie taxonomy and processing scripts
 │   ├── data/
 │   │   └── dtdd/
-│   │       └── dtdd_topics_catalog.json     # Raw DoesTheDogDie topics export (200+ entries)
+│   │       └── dtdd_topics_catalog.json   # Raw DoesTheDogDie topics export (200+ entries)
 │   │
 │   └── taxonomy/
-│       ├── umbrellas.json                  # Tier-1 umbrella categories (12 total)
-│       ├── claude_taxonomy.yml             # Tier-2 subcategories mapped to DTDD topic IDs
-│       ├── structure_report.md             # Human-readable summary + validation
-│       ├── expanded.json                   # Backend-ready taxonomy for integration
-│       ├── build_structure_report.py       # Generates structure_report.md
-│       └── build_expanded_json.py          # Generates expanded.json
+│       ├── umbrellas.json                 # Tier-1 umbrella categories (12 total)
+│       ├── claude_taxonomy.yml            # Tier-2 subcategories mapped to DTDD topic IDs
+│       ├── structure_report.md            # Human-readable summary + validation
+│       ├── expanded.json                  # Backend-ready taxonomy for integration
+│       ├── build_structure_report.py      # Generates structure_report.md
+│       └── build_expanded_json.py         # Generates expanded.json
 │
-└── README.md                          # This file
+├── normalization/                         # TMDB and related normalization scripts and outputs
+│   ├── data/
+│   │   └── tmdb/
+│   │       ├── services_us_tiered.json    # Streaming providers grouped by monetization tier (subscription, free_with_ads, rent, buy)
+│   │       └── genres.json                # Unified genre dictionary (movie + TV, with union and byId mappings)
+│   │
+│   └── scripts/
+│       ├── build_tmdb_us_tiered_providers.py # Builds U.S. provider tiers
+│       └── build_tmdb_genres.py              # Builds combined genre dictionary
+│
+└── README.md                              # This file
 ```
 
 ---
@@ -202,7 +212,80 @@ This file is static and can be imported directly into backend code or used for f
 - Markdown export of TMDB `/movie/{id}` fields:
   [schema_tmdb_movie_core.md](python_scripts/assets/schema_tmdb_movie_core.md)
 
+---
 
+## Data Normalization (TMDB and Related Sources)
+
+This folder defines how **The Movie Database (TMDB)** data is normalized for *FindMyFlick*.  
+It converts raw TMDB API outputs into structured JSON files that can be directly joined with other datasets such as content warnings, keywords, or recommendations.
+
+### Purpose
+- Provides consistent reference data (genres, streaming providers, etc.) for filtering and joining across APIs.  
+- Uses the same `.env` configuration as other scripts, reading `TMDB_API_KEY` from the project root.  
+- Follows the same structure and build process as the **DoesTheDogDie taxonomy**, keeping the codebase modular and predictable.
+
+### Folder  
+`python_scripts/normalization/`
+
+---
+
+### Current Outputs
+
+| File | Description |
+|------|--------------|
+| `data/tmdb/services_us_tiered.json` | Canonical list of **U.S. streaming providers**, grouped into four monetization tiers: `subscription`, `free_with_ads`, `rent`, and `buy`. |
+| `data/tmdb/genres.json` | Combined dictionary of **movie and TV genres**, including unified `union` keys and lookup dictionaries for `byId`, `movie`, and `tv`. |
+
+---
+
+### Scripts
+
+| Script | Purpose |
+|---------|----------|
+| `scripts/build_tmdb_us_tiered_providers.py` | Fetches TMDB `/watch/providers` data for the U.S. region and builds tiered lists of streaming providers (`subscription`, `free_with_ads`, `rent`, `buy`). |
+| `scripts/build_tmdb_genres.py` | Fetches `/genre/movie/list` and `/genre/tv/list` and merges them into a unified structure with `union` and `byId` dictionaries. |
+
+---
+
+### Run Instructions
+
+#### Build Tiered Streaming Providers
+Fetches data directly from TMDB using your API key in the root `.env`.
+
+```bash
+python -m python_scripts.normalization.scripts.build_tmdb_us_tiered_providers
+```
+
+Output:
+```
+python_scripts/normalization/data/tmdb/services_us_tiered.json
+```
+
+#### Build Genre Dictionary
+Fetches both movie and TV genre lists from TMDB and combines them into a single normalized structure.
+
+```bash
+python -m python_scripts.normalization.scripts.build_tmdb_genres
+```
+
+Output:
+```
+python_scripts/normalization/data/tmdb/genres.json
+```
+
+---
+
+### Future Additions
+- `build_tmdb_keywords.py` → unified keyword dictionary for content-based filtering or recommendations.  
+- `build_tmdb_certifications.py` → normalized movie and TV certification data for regional ratings.  
+- `merge_normalization.py` → merges all normalization outputs into a single master reference for the backend.
+
+---
+
+### Developer Notes
+- Both normalization scripts use the same lightweight `.env` loader as other proof-of-concept scripts (no additional dependencies required).  
+- TMDB’s API rate limits are respected with short delays between requests.  
+- All JSON outputs are static, portable, and ready for backend integration or front-end filtering.
 
 ## References
 
