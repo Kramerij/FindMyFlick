@@ -1,0 +1,535 @@
+{
+  "source": "tmdb",
+  "language": "en-US",
+  "generatedAt": "2025-11-07T15:37:12Z",
+  "genres": {
+    "movie": [
+      {
+        "id": 28,
+        "name": "Action",
+        "slug": "action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure",
+        "slug": "adventure"
+      },
+      {
+        "id": 16,
+        "name": "Animation",
+        "slug": "animation"
+      },
+      {
+        "id": 35,
+        "name": "Comedy",
+        "slug": "comedy"
+      },
+      {
+        "id": 80,
+        "name": "Crime",
+        "slug": "crime"
+      },
+      {
+        "id": 99,
+        "name": "Documentary",
+        "slug": "documentary"
+      },
+      {
+        "id": 18,
+        "name": "Drama",
+        "slug": "drama"
+      },
+      {
+        "id": 10751,
+        "name": "Family",
+        "slug": "family"
+      },
+      {
+        "id": 14,
+        "name": "Fantasy",
+        "slug": "fantasy"
+      },
+      {
+        "id": 36,
+        "name": "History",
+        "slug": "history"
+      },
+      {
+        "id": 27,
+        "name": "Horror",
+        "slug": "horror"
+      },
+      {
+        "id": 10402,
+        "name": "Music",
+        "slug": "music"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery",
+        "slug": "mystery"
+      },
+      {
+        "id": 10749,
+        "name": "Romance",
+        "slug": "romance"
+      },
+      {
+        "id": 878,
+        "name": "Science Fiction",
+        "slug": "science-fiction"
+      },
+      {
+        "id": 10770,
+        "name": "TV Movie",
+        "slug": "tv-movie"
+      },
+      {
+        "id": 53,
+        "name": "Thriller",
+        "slug": "thriller"
+      },
+      {
+        "id": 10752,
+        "name": "War",
+        "slug": "war"
+      },
+      {
+        "id": 37,
+        "name": "Western",
+        "slug": "western"
+      }
+    ],
+    "tv": [
+      {
+        "id": 10759,
+        "name": "Action & Adventure",
+        "slug": "action-adventure"
+      },
+      {
+        "id": 16,
+        "name": "Animation",
+        "slug": "animation"
+      },
+      {
+        "id": 35,
+        "name": "Comedy",
+        "slug": "comedy"
+      },
+      {
+        "id": 80,
+        "name": "Crime",
+        "slug": "crime"
+      },
+      {
+        "id": 99,
+        "name": "Documentary",
+        "slug": "documentary"
+      },
+      {
+        "id": 18,
+        "name": "Drama",
+        "slug": "drama"
+      },
+      {
+        "id": 10751,
+        "name": "Family",
+        "slug": "family"
+      },
+      {
+        "id": 10762,
+        "name": "Kids",
+        "slug": "kids"
+      },
+      {
+        "id": 9648,
+        "name": "Mystery",
+        "slug": "mystery"
+      },
+      {
+        "id": 10763,
+        "name": "News",
+        "slug": "news"
+      },
+      {
+        "id": 10764,
+        "name": "Reality",
+        "slug": "reality"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy",
+        "slug": "sci-fi-fantasy"
+      },
+      {
+        "id": 10766,
+        "name": "Soap",
+        "slug": "soap"
+      },
+      {
+        "id": 10767,
+        "name": "Talk",
+        "slug": "talk"
+      },
+      {
+        "id": 10768,
+        "name": "War & Politics",
+        "slug": "war-politics"
+      },
+      {
+        "id": 37,
+        "name": "Western",
+        "slug": "western"
+      }
+    ]
+  },
+  "byId": {
+    "movie:28": {
+      "id": 28,
+      "mediaType": "movie",
+      "name": "Action",
+      "slug": "action"
+    },
+    "movie:12": {
+      "id": 12,
+      "mediaType": "movie",
+      "name": "Adventure",
+      "slug": "adventure"
+    },
+    "movie:16": {
+      "id": 16,
+      "mediaType": "movie",
+      "name": "Animation",
+      "slug": "animation"
+    },
+    "movie:35": {
+      "id": 35,
+      "mediaType": "movie",
+      "name": "Comedy",
+      "slug": "comedy"
+    },
+    "movie:80": {
+      "id": 80,
+      "mediaType": "movie",
+      "name": "Crime",
+      "slug": "crime"
+    },
+    "movie:99": {
+      "id": 99,
+      "mediaType": "movie",
+      "name": "Documentary",
+      "slug": "documentary"
+    },
+    "movie:18": {
+      "id": 18,
+      "mediaType": "movie",
+      "name": "Drama",
+      "slug": "drama"
+    },
+    "movie:10751": {
+      "id": 10751,
+      "mediaType": "movie",
+      "name": "Family",
+      "slug": "family"
+    },
+    "movie:14": {
+      "id": 14,
+      "mediaType": "movie",
+      "name": "Fantasy",
+      "slug": "fantasy"
+    },
+    "movie:36": {
+      "id": 36,
+      "mediaType": "movie",
+      "name": "History",
+      "slug": "history"
+    },
+    "movie:27": {
+      "id": 27,
+      "mediaType": "movie",
+      "name": "Horror",
+      "slug": "horror"
+    },
+    "movie:10402": {
+      "id": 10402,
+      "mediaType": "movie",
+      "name": "Music",
+      "slug": "music"
+    },
+    "movie:9648": {
+      "id": 9648,
+      "mediaType": "movie",
+      "name": "Mystery",
+      "slug": "mystery"
+    },
+    "movie:10749": {
+      "id": 10749,
+      "mediaType": "movie",
+      "name": "Romance",
+      "slug": "romance"
+    },
+    "movie:878": {
+      "id": 878,
+      "mediaType": "movie",
+      "name": "Science Fiction",
+      "slug": "science-fiction"
+    },
+    "movie:10770": {
+      "id": 10770,
+      "mediaType": "movie",
+      "name": "TV Movie",
+      "slug": "tv-movie"
+    },
+    "movie:53": {
+      "id": 53,
+      "mediaType": "movie",
+      "name": "Thriller",
+      "slug": "thriller"
+    },
+    "movie:10752": {
+      "id": 10752,
+      "mediaType": "movie",
+      "name": "War",
+      "slug": "war"
+    },
+    "movie:37": {
+      "id": 37,
+      "mediaType": "movie",
+      "name": "Western",
+      "slug": "western"
+    },
+    "tv:10759": {
+      "id": 10759,
+      "mediaType": "tv",
+      "name": "Action & Adventure",
+      "slug": "action-adventure"
+    },
+    "tv:16": {
+      "id": 16,
+      "mediaType": "tv",
+      "name": "Animation",
+      "slug": "animation"
+    },
+    "tv:35": {
+      "id": 35,
+      "mediaType": "tv",
+      "name": "Comedy",
+      "slug": "comedy"
+    },
+    "tv:80": {
+      "id": 80,
+      "mediaType": "tv",
+      "name": "Crime",
+      "slug": "crime"
+    },
+    "tv:99": {
+      "id": 99,
+      "mediaType": "tv",
+      "name": "Documentary",
+      "slug": "documentary"
+    },
+    "tv:18": {
+      "id": 18,
+      "mediaType": "tv",
+      "name": "Drama",
+      "slug": "drama"
+    },
+    "tv:10751": {
+      "id": 10751,
+      "mediaType": "tv",
+      "name": "Family",
+      "slug": "family"
+    },
+    "tv:10762": {
+      "id": 10762,
+      "mediaType": "tv",
+      "name": "Kids",
+      "slug": "kids"
+    },
+    "tv:9648": {
+      "id": 9648,
+      "mediaType": "tv",
+      "name": "Mystery",
+      "slug": "mystery"
+    },
+    "tv:10763": {
+      "id": 10763,
+      "mediaType": "tv",
+      "name": "News",
+      "slug": "news"
+    },
+    "tv:10764": {
+      "id": 10764,
+      "mediaType": "tv",
+      "name": "Reality",
+      "slug": "reality"
+    },
+    "tv:10765": {
+      "id": 10765,
+      "mediaType": "tv",
+      "name": "Sci-Fi & Fantasy",
+      "slug": "sci-fi-fantasy"
+    },
+    "tv:10766": {
+      "id": 10766,
+      "mediaType": "tv",
+      "name": "Soap",
+      "slug": "soap"
+    },
+    "tv:10767": {
+      "id": 10767,
+      "mediaType": "tv",
+      "name": "Talk",
+      "slug": "talk"
+    },
+    "tv:10768": {
+      "id": 10768,
+      "mediaType": "tv",
+      "name": "War & Politics",
+      "slug": "war-politics"
+    },
+    "tv:37": {
+      "id": 37,
+      "mediaType": "tv",
+      "name": "Western",
+      "slug": "western"
+    }
+  },
+  "union": {
+    "action": {
+      "name": "Action",
+      "movieId": 28,
+      "tvId": null
+    },
+    "adventure": {
+      "name": "Adventure",
+      "movieId": 12,
+      "tvId": null
+    },
+    "animation": {
+      "name": "Animation",
+      "movieId": 16,
+      "tvId": 16
+    },
+    "comedy": {
+      "name": "Comedy",
+      "movieId": 35,
+      "tvId": 35
+    },
+    "crime": {
+      "name": "Crime",
+      "movieId": 80,
+      "tvId": 80
+    },
+    "documentary": {
+      "name": "Documentary",
+      "movieId": 99,
+      "tvId": 99
+    },
+    "drama": {
+      "name": "Drama",
+      "movieId": 18,
+      "tvId": 18
+    },
+    "family": {
+      "name": "Family",
+      "movieId": 10751,
+      "tvId": 10751
+    },
+    "fantasy": {
+      "name": "Fantasy",
+      "movieId": 14,
+      "tvId": null
+    },
+    "history": {
+      "name": "History",
+      "movieId": 36,
+      "tvId": null
+    },
+    "horror": {
+      "name": "Horror",
+      "movieId": 27,
+      "tvId": null
+    },
+    "music": {
+      "name": "Music",
+      "movieId": 10402,
+      "tvId": null
+    },
+    "mystery": {
+      "name": "Mystery",
+      "movieId": 9648,
+      "tvId": 9648
+    },
+    "romance": {
+      "name": "Romance",
+      "movieId": 10749,
+      "tvId": null
+    },
+    "science-fiction": {
+      "name": "Science Fiction",
+      "movieId": 878,
+      "tvId": null
+    },
+    "tv-movie": {
+      "name": "TV Movie",
+      "movieId": 10770,
+      "tvId": null
+    },
+    "thriller": {
+      "name": "Thriller",
+      "movieId": 53,
+      "tvId": null
+    },
+    "war": {
+      "name": "War",
+      "movieId": 10752,
+      "tvId": null
+    },
+    "western": {
+      "name": "Western",
+      "movieId": 37,
+      "tvId": 37
+    },
+    "action-adventure": {
+      "name": "Action & Adventure",
+      "movieId": null,
+      "tvId": 10759
+    },
+    "kids": {
+      "name": "Kids",
+      "movieId": null,
+      "tvId": 10762
+    },
+    "news": {
+      "name": "News",
+      "movieId": null,
+      "tvId": 10763
+    },
+    "reality": {
+      "name": "Reality",
+      "movieId": null,
+      "tvId": 10764
+    },
+    "sci-fi-fantasy": {
+      "name": "Sci-Fi & Fantasy",
+      "movieId": null,
+      "tvId": 10765
+    },
+    "soap": {
+      "name": "Soap",
+      "movieId": null,
+      "tvId": 10766
+    },
+    "talk": {
+      "name": "Talk",
+      "movieId": null,
+      "tvId": 10767
+    },
+    "war-politics": {
+      "name": "War & Politics",
+      "movieId": null,
+      "tvId": 10768
+    }
+  }
+}
