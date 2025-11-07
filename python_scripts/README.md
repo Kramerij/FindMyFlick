@@ -57,6 +57,19 @@ python_scripts/
 │   ├── constants.py                   # Language and region defaults (US market, English text)
 │   └── schema_utils.py                # Flatten JSON and export markdown tables
 │
+├── content_warnings/                  # DoesTheDogDie taxonomy and processing scripts
+│   ├── data/
+│   │   └── dtdd/
+│   │       └── dtdd_topics_catalog.json     # Raw DoesTheDogDie topics export (200+ entries)
+│   │
+│   └── taxonomy/
+│       ├── umbrellas.json                  # Tier-1 umbrella categories (12 total)
+│       ├── claude_taxonomy.yml             # Tier-2 subcategories mapped to DTDD topic IDs
+│       ├── structure_report.md             # Human-readable summary + validation
+│       ├── expanded.json                   # Backend-ready taxonomy for integration
+│       ├── build_structure_report.py       # Generates structure_report.md
+│       └── build_expanded_json.py          # Generates expanded.json
+│
 └── README.md                          # This file
 ```
 
@@ -136,6 +149,51 @@ python -m python_scripts.tmdb.schema_movie_core
   python_scripts/assets/schema_tmdb_movie_core.md
   ```
 
+---
+
+## Content Warning Taxonomy (DoesTheDogDie)
+
+This folder defines how DoesTheDogDie (DTDD) topics are grouped into broader categories for FindMyFlick.  
+It converts over 200 individual content warnings into 12 Tier-1 *umbrella* categories with nested Tier-2 subcategories.
+
+### Purpose
+- Simplifies search and filtering for sensitive content.
+- Lets users filter at either a high-level (e.g., “Animal Harm & Death”) or specific topic level.
+- Provides a static JSON (`expanded.json`) that maps each DTDD topic ID to its umbrella category.
+
+### How It Works
+1. **`dtdd_topics_catalog.json`** — the raw topic list pulled from the DoesTheDogDie API.  
+2. **`umbrellas.json`** — defines the 12 high-level umbrella categories.  
+3. **`claude_taxonomy.yml`** — groups topic IDs under each umbrella and subcategory.  
+4. **`build_structure_report.py`** — generates a readable Markdown report (`structure_report.md`) summarizing Tier-1 and Tier-2 layout.  
+5. **`build_expanded_json.py`** — builds `expanded.json`, the file actually used by the backend.
+
+### Developer Notes
+If you update the taxonomy and need to rebuild outputs:
+```bash
+pip install pyyaml
+python python_scripts/content_warnings/taxonomy/build_structure_report.py
+python python_scripts/content_warnings/taxonomy/build_expanded_json.py
+```
+
+The second script writes `expanded.json`, which the backend can load like this:
+
+```python
+import json
+from pathlib import Path
+
+taxonomy = json.loads(
+    Path("python_scripts/content_warnings/taxonomy/expanded.json").read_text(encoding="utf-8")
+)
+```
+
+# Example lookups:
+animal_ids = taxonomy["umbrella_to_topic_ids"]["U01"]
+topic_name = taxonomy["topics"]["153"]["topic_name"]
+umbrellas_for_topic = taxonomy["topic_id_to_umbrellas"]["153"]
+This file is static and can be imported directly into backend code or used for front-end filtering logic.
+---
+
 ## Example Output
 
 - Screenshot of the demo script:
@@ -144,7 +202,7 @@ python -m python_scripts.tmdb.schema_movie_core
 - Markdown export of TMDB `/movie/{id}` fields:
   [schema_tmdb_movie_core.md](python_scripts/assets/schema_tmdb_movie_core.md)
 
----
+
 
 ## References
 
