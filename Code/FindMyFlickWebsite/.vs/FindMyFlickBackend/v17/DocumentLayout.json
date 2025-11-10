@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GIT\\FindMyFlick\\Code\\FindMyFlickWebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87390255-B610-4829-A02A-AF959238EF92}|FindMyFlickWebsite.Server\\FindMyFlickWebsite.Server.csproj|c:\\git\\findmyflick\\code\\findmyflickwebsite\\findmyflickwebsite.server\\models\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87390255-B610-4829-A02A-AF959238EF92}|FindMyFlickWebsite.Server\\FindMyFlickWebsite.Server.csproj|solutionrelative:findmyflickwebsite.server\\models\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87390255-B610-4829-A02A-AF959238EF92}|FindMyFlickWebsite.Server\\FindMyFlickWebsite.Server.csproj|c:\\git\\findmyflick\\code\\findmyflickwebsite\\findmyflickwebsite.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87390255-B610-4829-A02A-AF959238EF92}|FindMyFlickWebsite.Server\\FindMyFlickWebsite.Server.csproj|solutionrelative:findmyflickwebsite.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87390255-B610-4829-A02A-AF959238EF92}|FindMyFlickWebsite.Server\\FindMyFlickWebsite.Server.csproj|c:\\git\\findmyflick\\code\\findmyflickwebsite\\findmyflickwebsite.server\\models\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87390255-B610-4829-A02A-AF959238EF92}|FindMyFlickWebsite.Server\\FindMyFlickWebsite.Server.csproj|solutionrelative:findmyflickwebsite.server\\models\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tags.cs",
+              "DocumentMoniker": "C:\\GIT\\FindMyFlick\\Code\\FindMyFlickWebsite\\FindMyFlickWebsite.Server\\Models\\Tags.cs",
+              "RelativeDocumentMoniker": "FindMyFlickWebsite.Server\\Models\\Tags.cs",
+              "ToolTip": "C:\\GIT\\FindMyFlick\\Code\\FindMyFlickWebsite\\FindMyFlickWebsite.Server\\Models\\Tags.cs",
+              "RelativeToolTip": "FindMyFlickWebsite.Server\\Models\\Tags.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T03:44:03.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Movies.cs",
+              "DocumentMoniker": "C:\\GIT\\FindMyFlick\\Code\\FindMyFlickWebsite\\FindMyFlickWebsite.Server\\Models\\Movies.cs",
+              "RelativeDocumentMoniker": "FindMyFlickWebsite.Server\\Models\\Movies.cs",
+              "ToolTip": "C:\\GIT\\FindMyFlick\\Code\\FindMyFlickWebsite\\FindMyFlickWebsite.Server\\Models\\Movies.cs",
+              "RelativeToolTip": "FindMyFlickWebsite.Server\\Models\\Movies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T03:17:39.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GIT\\FindMyFlick\\Code\\FindMyFlickWebsite\\FindMyFlickWebsite.Server\\Program.cs",
+              "RelativeDocumentMoniker": "FindMyFlickWebsite.Server\\Program.cs",
+              "ToolTip": "C:\\GIT\\FindMyFlick\\Code\\FindMyFlickWebsite\\FindMyFlickWebsite.Server\\Program.cs",
+              "RelativeToolTip": "FindMyFlickWebsite.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T03:15:36.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

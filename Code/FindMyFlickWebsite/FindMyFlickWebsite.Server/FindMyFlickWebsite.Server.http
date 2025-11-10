@@ -1,0 +1,6 @@
+@FindMyFlickWebsite.Server_HostAddress = http://localhost:5135
+
+GET {{FindMyFlickWebsite.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
