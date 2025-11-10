@@ -1,3 +1,4 @@
+using FindMyFlickWebsite.Server.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FindMyFlickWebsite.Server.Controllers;

@@ -19,11 +19,6 @@ C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\n
 C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\FindMyFlickWebsite.Server.sourcelink.json
 C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\staticwebassets.build.json
 C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\staticwebassets.development.json
-C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\staticwebassets\msbuild.FindMyFlickWebsite.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.FindMyFlickWebsite.Server.props
-C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FindMyFlickWebsite.Server.props
-C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FindMyFlickWebsite.Server.props
-C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\staticwebassets.pack.json
 C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\scopedcss\bundle\FindMyFlickWebsite.Server.styles.css
 C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\FindMyFl.5BE8FA80.Up2Date
 C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\FindMyFlickWebsite.Server.dll
@@ -31,3 +26,11 @@ C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\n
 C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\FindMyFlickWebsite.Server.pdb
 C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\FindMyFlickWebsite.Server.genruntimeconfig.cache
 C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\ref\FindMyFlickWebsite.Server.dll
+C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\bin\Debug\net8.0\FindMyFlickWebsite.Server.staticwebassets.endpoints.json
+C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\GIT\FindMyFlick\Code\FindMyFlickWebsite\FindMyFlickWebsite.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

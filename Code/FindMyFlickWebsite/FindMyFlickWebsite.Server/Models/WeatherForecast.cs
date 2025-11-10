@@ -1,4 +1,4 @@
-namespace FindMyFlickWebsite.Server;
+namespace FindMyFlickWebsite.Server.Models;
 
 public class WeatherForecast
 {

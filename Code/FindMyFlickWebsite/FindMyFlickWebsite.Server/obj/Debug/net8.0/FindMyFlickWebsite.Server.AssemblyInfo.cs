@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FindMyFlickWebsite.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+415369ae5e282d85bd0c8816fdedd19cea2159c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0d6c87f32c7a4d9cb16fd82fa7277bdf8908a19")]
 [assembly: System.Reflection.AssemblyProductAttribute("FindMyFlickWebsite.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FindMyFlickWebsite.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
