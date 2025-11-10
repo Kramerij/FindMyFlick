@@ -15,6 +15,8 @@ namespace FindMyFlickWebsite.Server.Controllers
 
         public MoviesController()
         {
+            //will need to get movie list from api or db here. 
+
             //generated with copilot using the json schema and DTO 
             // Seed in-memory sample data matching the DTO shape
             _movies = new List<Movies>
