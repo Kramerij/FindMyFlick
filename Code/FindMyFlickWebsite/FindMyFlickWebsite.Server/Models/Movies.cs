@@ -1,12 +1,15 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text.Json.Serialization;
 
 namespace FindMyFlickWebsite.Server.Models
 {
+    // generated with copilot using the json schema that I previously created
     public class Movies
     {
         //generated with copilot using the json schema that I previously created
-        private static readonly List<string> list = [];
+        private static readonly List<string> list = new List<string>();
 
         [JsonPropertyName("id")]
         public int ID { get; set; }
@@ -27,7 +30,7 @@ namespace FindMyFlickWebsite.Server.Models
         public string? Poster { get; set; }
 
         [JsonPropertyName("streaming services")]
-        public List<string> StreamingServices { get; set; } = [];
+        public List<string> StreamingServices { get; set; } = new List<string>();
 
         [JsonPropertyName("age rating")]
         public string? AgeRating { get; set; }
@@ -36,10 +39,12 @@ namespace FindMyFlickWebsite.Server.Models
         public string? Name { get; set; }
 
         [JsonPropertyName("genre")]
-        public List<string> Genre { get; set; } = [];
+        public List<string> Genre { get; set; } = new List<string>();
 
         [JsonPropertyName("Tags")]
         public Tags Tags { get; set; } = new();
+
+      
     }
 
     public class TagVote
