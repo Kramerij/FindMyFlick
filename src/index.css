@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* Retro gradient background */
+
 body {
   background: radial-gradient(circle at top, #ff52d9, #3d0099, #000);
   color: white;
@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-/* Neon glowing text */
+
 .neon-text {
   text-shadow:
     0 0 5px #ff39e1,
@@ -18,21 +18,19 @@ body {
     0 0 40px #ff39e1;
 }
 
-/* Disco glow on navbar */
+
 .disco-glow {
   box-shadow: 0 0 20px #d400ff, 0 0 40px #ff008c;
 }
 
-/* Smooth animation option */
+
 @keyframes pulseGlow {
   0% { text-shadow: 0 0 5px #ff39e1; }
   50% { text-shadow: 0 0 20px #ff39e1; }
   100% { text-shadow: 0 0 5px #ff39e1; }
 }
 
-/* --------------------------
-   NAV LINKS — YOUR STYLES
---------------------------- */
+
 .nav-link {
   cursor: pointer;
   transition: color 0.3s, transform 0.2s;
@@ -47,12 +45,12 @@ body {
     0 0 20px #ff6ed0;
 }
 
-/* Click / active press shrink effect */
+
 .nav-link:active {
   transform: scale(0.92);
 }
 
-/* Ripple glow */
+
 .nav-link:active::after {
   content: "";
   position: absolute;
@@ -77,11 +75,7 @@ body {
   }
 }
 
-/* --------------------------
-   🔥 NEW ADDITIONS BELOW
---------------------------- */
 
-/* Underline hover animation */
 .nav-link::before {
   content: "";
   position: absolute;
@@ -98,7 +92,7 @@ body {
   width: 100%;
 }
 
-/* Floating disco animation */
+
 .nav-float {
   animation: floaty 3s ease-in-out infinite;
 }
@@ -108,7 +102,7 @@ body {
   50% { transform: translateY(-3px); }
 }
 
-/* Glow for active page */
+
 .active-nav {
   color: #ff6ed0;
   text-shadow:
