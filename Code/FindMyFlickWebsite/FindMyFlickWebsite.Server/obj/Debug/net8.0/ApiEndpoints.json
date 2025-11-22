@@ -98,12 +98,22 @@
         "IsRequired": false
       },
       {
-        "Name": "tagIds",
-        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "tagNamesInclude",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
-        "Name": "matchAllTags",
+        "Name": "tagNamesExclude",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "matchAllTagsIn",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "matchAllTagsEx",
         "Type": "System.Boolean",
         "IsRequired": false
       }

@@ -168,22 +168,39 @@
             }
           },
           {
-            "name": "tagIds",
+            "name": "tagNamesInclude",
             "in": "query",
             "schema": {
               "type": "array",
               "items": {
-                "type": "integer",
-                "format": "int32"
+                "type": "string"
               }
             }
           },
           {
-            "name": "matchAllTags",
+            "name": "tagNamesExclude",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "matchAllTagsIn",
             "in": "query",
             "schema": {
               "type": "boolean",
               "default": false
+            }
+          },
+          {
+            "name": "matchAllTagsEx",
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "default": true
             }
           }
         ],
@@ -360,6 +377,58 @@
         },
         "additionalProperties": false
       },
+      "PersonTag": {
+        "type": "object",
+        "properties": {
+          "tagType": {
+            "type": "string",
+            "nullable": true
+          },
+          "tagID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tagName": {
+            "type": "string",
+            "nullable": true
+          },
+          "upvotes": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "downvotes": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlotTag": {
+        "type": "object",
+        "properties": {
+          "tagType": {
+            "type": "string",
+            "nullable": true
+          },
+          "tagID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tagName": {
+            "type": "string",
+            "nullable": true
+          },
+          "upvotes": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "downvotes": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "ProblemDetails": {
         "type": "object",
         "properties": {
@@ -387,12 +456,47 @@
         },
         "additionalProperties": { }
       },
-      "TagVote": {
+      "Tags": {
         "type": "object",
         "properties": {
+          "Plot tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PlotTag"
+            },
+            "nullable": true
+          },
+          "Trigger tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TriggerTag"
+            },
+            "nullable": true
+          },
+          "Person tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PersonTag"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TriggerTag": {
+        "type": "object",
+        "properties": {
+          "tagType": {
+            "type": "string",
+            "nullable": true
+          },
           "tagID": {
             "type": "integer",
             "format": "int32"
+          },
+          "tagName": {
+            "type": "string",
+            "nullable": true
           },
           "upvotes": {
             "type": "integer",
@@ -401,33 +505,6 @@
           "downvotes": {
             "type": "integer",
             "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Tags": {
-        "type": "object",
-        "properties": {
-          "Plot tags": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/TagVote"
-            },
-            "nullable": true
-          },
-          "Trigger tags": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/TagVote"
-            },
-            "nullable": true
-          },
-          "Person tags": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/TagVote"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false

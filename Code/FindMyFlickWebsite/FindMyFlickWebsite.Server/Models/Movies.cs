@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Text.Json.Serialization;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json.Serialization;
@@ -42,20 +43,22 @@ namespace FindMyFlickWebsite.Server.Models
         public List<string> Genre { get; set; } = new List<string>();
 
         [JsonPropertyName("Tags")]
-        public Tags Tags { get; set; } = new();
+        public Tags Tags { get; set; } = new Tags();
 
-      
-    }
+        // Per-movie vote counts for tags (so same TagID can have different votes per movie)
+        [JsonPropertyName("tagVotes")]
+        public List<TagVote> TagVotes { get; set; } = new List<TagVote>();
 
-    public class TagVote
-    {
-        [JsonPropertyName("tagID")]
-        public int TagID { get; set; }
+        public class TagVote
+        {
+            [JsonPropertyName("tagID")]
+            public int TagID { get; set; }
 
-        [JsonPropertyName("upvotes")]
-        public int Upvotes { get; set; }
+            [JsonPropertyName("upvotes")]
+            public int Upvotes { get; set; }
 
-        [JsonPropertyName("downvotes")]
-        public int Downvotes { get; set; }
+            [JsonPropertyName("downvotes")]
+            public int Downvotes { get; set; }
+        }
     }
 }
