@@ -1,61 +1,109 @@
-import './App.css'
+
+import './App.css';
+import { useState } from 'react';
+import { FaSearch } from 'react-icons/fa';
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+
+
+import Home from './assets/pages/Home';
+import Discover from './assets/pages/Discover';
+import Genres from './assets/pages/Genres';
+import About from './assets/pages/About';
+import Profile from './assets/pages/Profile';
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearch = () => {
+    alert(`Searching for: ${searchTerm}`);
+  };
+
   return (
-    <>
-    
+    <Router>
+      
       <nav className="w-full bg-black text-white px-6 py-4 flex justify-between items-center disco-glow">
         <h1 className="text-2xl font-bold tracking-wider neon-text">FindMyFlick</h1>
 
-        <ul className="flex gap-8 text-lg font-medium">
-          <li className="nav-link">Home</li>
-          <li className="nav-link">Discover</li>
-          <li className="nav-link">Genres</li>
-          <li className="nav-link">About</li>
-          <li className="nav-link">Profile</li>
+        <ul className="flex gap-6 text-lg font-medium items-center">
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "nav-link active-nav" : "nav-link"
+              }
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/discover"
+              className={({ isActive }) =>
+                isActive ? "nav-link active-nav" : "nav-link"
+              }
+            >
+              Discover
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/genres"
+              className={({ isActive }) =>
+                isActive ? "nav-link active-nav" : "nav-link"
+              }
+            >
+              Genres
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "nav-link active-nav" : "nav-link"
+              }
+            >
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/profile"
+              className={({ isActive }) =>
+                isActive ? "nav-link active-nav" : "nav-link"
+              }
+            >
+              Profile
+            </NavLink>
+          </li>
+
+          <li className="flex gap-1 items-center">
+            <input
+              type="text"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              placeholder="Search..."
+              className="p-1 rounded-md text-black text-sm"
+            />
+            <button
+              onClick={handleSearch}
+              className="bg-white/10 hover:bg-white/20 px-2 py-1 rounded-md text-white text-sm flex items-center justify-center"
+            >
+              <FaSearch />
+            </button>
+          </li>
         </ul>
       </nav>
 
-     
-      <header className="relative h-[300px] md:h-[450px] w-full mt-6 rounded-xl overflow-hidden shadow-xl mx-auto max-w-6xl">
-        <div className="w-full h-full img-placeholder text-2xl">
-          Banner Coming Soon
-        </div>
-
-        <div className="absolute inset-0 bg-black/40 flex items-center px-10">
-          <div>
-            <h2 className="text-4xl md:text-5xl font-bold neon-text">
-              Your Movie Finder Companion
-            </h2>
-            <p className="mt-3 text-lg opacity-90">
-              Search. Discover. Flick through your next favorite movie.
-            </p>
-          </div>
-        </div>
-      </header>
-
-     
-      <section className="mt-10 px-6 max-w-6xl mx-auto">
-        <h3 className="text-2xl font-semibold mb-3 neon-text">Trending Now</h3>
-
-        <div className="flex gap-4 overflow-x-scroll scrollbar-hide pb-4">
-
-          {[1, 2, 3, 4].map((_, i) => (
-            <div
-              key={i}
-              className="min-w-[180px] h-[260px] rounded-xl overflow-hidden transform hover:scale-105 transition img-placeholder"
-            >
-              <span className="flex items-center justify-center w-full h-full text-sm">
-                Image Coming Soon
-              </span>
-            </div>
-          ))}
-
-        </div>
-      </section>
-    </>
+      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/discover" element={<Discover />} />
+        <Route path="/genres" element={<Genres />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </Router>
   );
 }
 
-export default App
-
+export default App;
